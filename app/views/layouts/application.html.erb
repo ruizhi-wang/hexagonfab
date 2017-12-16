@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title><%= full_title(yield(:title)) %></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <%= stylesheet_link_tag    'application', media: 'all'%>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script>
+    $(document).ready(function () {
+        $('.dropdown-toggle').dropdown();
+    });
+  </script>
+
+</head>
+
+<body>
+
+	<%= render 'shared/navbar' %>
+  <div style="height:3em"></div>
+
+  <div class="container">
+    <%= yield %>
+  </div>
+
+  <%= render 'shared/footer' %>
+
+  <div class="container-non-padding">
+  <%= debug(params) if Rails.env.development? %>
+  </div>
+
+</body>
+</html>
