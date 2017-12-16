@@ -9193,3 +9193,12 @@ Processing by StaticPagesController#contact as HTML
 Completed 200 OK in 28ms (Views: 24.1ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-12-16 10:47:52 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (414.8ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 1087ms (Views: 472.5ms)
+
+
