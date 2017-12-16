@@ -8788,7 +8788,7 @@ button.close {
     display: none !important;
   }
 }
-/* line 5, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 5, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 body {
   color: #565a5c;
   background-color: #fafafa;
@@ -8796,82 +8796,82 @@ body {
   /* background-color: #F8F8F8; Old Color*/
 }
 
-/* line 12, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 12, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .landing {
   background-position: top;
   width: 100%;
   height: 40em;
 }
 
-/* line 20, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 20, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .container {
   width: 90%;
 }
 
-/* line 24, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 24, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .container-non-padding {
   padding-left: 0px;
   padding-right: 0px;
 }
 
-/* line 31, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 31, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .navbar-fixed-top {
   top: 0;
   border-width: 0 0 0px;
 }
 
-/* line 37, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 37, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .navbar-default {
   background-color: #ffffff;
 }
 
-/* line 41, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 41, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .navbar-default .navbar-brand {
   color: #FF5A5F;
   font-size: 2em;
   font-weight: 400;
 }
 
-/* line 47, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 47, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .navbar-header {
   height: 3em;
 }
 
-/* line 52, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 52, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 footer {
   padding-top: 0.2em;
   border-top: 1px solid #eaeaea;
   color: #777;
 }
 
-/* line 58, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 58, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 footer a {
   color: #555;
 }
 
-/* line 62, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 62, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 footer a:hover {
   color: #222;
 }
 
-/* line 66, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 66, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 footer small {
   float: left;
 }
 
-/* line 70, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 70, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 footer ul {
   float: right;
   list-style: none;
 }
 
-/* line 75, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 75, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 footer ul li {
   float: left;
   margin-left: 15px;
 }
 
-/* line 81, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 81, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .btn-primary.btn {
   border: 1px solid #ff5a5f;
   border-radius: 30px;
@@ -8881,7 +8881,7 @@ footer ul li {
   padding: 10px 25px 10px 25px;
 }
 
-/* line 90, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 90, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .btn-primary.btn:hover, .btn-primary.btn:focus {
   border-color: #ff7e82;
   border-bottom-color: #fa0008;
@@ -8889,26 +8889,26 @@ footer ul li {
   outline: none;
 }
 
-/* line 97, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 97, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .btn-primary.btn:active {
   border-color: #e00007;
   background-color: #e00007;
   outline: none;
 }
 
-/* line 103, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 103, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .btn-default.btn {
   border-radius: 30px;
   padding: 10px 25px 10px 25px;
 }
 
-/* line 111, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 111, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .dropdown-menu.dropdown-menu-wide {
   min-width: 100%;
   text-align: center;
 }
 
-/* line 116, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 116, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .panel-default .panel-heading {
   color: #565a5c;
   background-color: #edefed;
@@ -8916,25 +8916,25 @@ footer ul li {
   font-weight: 400;
 }
 
-/* line 123, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 123, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .row-space-1 {
   margin-top: 6px;
   margin-bottom: 6px;
 }
 
-/* line 128, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 128, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .row-space-2 {
   margin-top: 12px;
   margin-bottom: 12px;
 }
 
-/* line 133, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 133, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .row-space-3 {
   margin-top: 24px;
   margin-bottom: 24px;
 }
 
-/* line 138, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 138, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .description {
   color: #575757;
   font-size: 15px;
@@ -8942,45 +8942,45 @@ footer ul li {
   line-height: 25px;
 }
 
-/* line 145, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 145, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .avatar-small {
   width: 28px;
 }
 
-/* line 149, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 149, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .avatar-medium {
   width: 48px;
 }
 
-/* line 153, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 153, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .avatar-large {
   width: 68px;
 }
 
-/* line 157, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 157, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .avatar-full {
   width: 100%;
 }
 
-/* line 162, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 162, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .form-group {
   margin-bottom: 25px;
 }
 
-/* line 166, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 166, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .form-control {
   border-radius: 2px;
   height: 4rem;
   font-size: 16px;
 }
 
-/* line 173, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 173, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .sidebar-list {
   padding-left: 0;
   list-style: none;
 }
 
-/* line 178, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 178, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .sidebar-item {
   padding: 10px 0;
   font-size: 16px;
@@ -8988,26 +8988,26 @@ footer ul li {
   border-bottom: 1px solid #CCC;
 }
 
-/* line 185, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 185, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .sidebar-link {
   color: #82888a;
   text-decoration: none;
 }
 
-/* line 190, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 190, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .sidebar-link:hover, .sidebar-link:focus {
   color: #cacccd;
   text-decoration: none;
 }
 
-/* line 195, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 195, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .active.sidebar-link {
   color: #565a5c;
   font-weight: bold;
   text-decoration: none;
 }
 
-/* line 202, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 202, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 label {
   color: #565a5c;
   font-size: 1.1em;
@@ -9015,7 +9015,7 @@ label {
   margin-bottom: 10px;
 }
 
-/* line 209, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 209, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 select {
   color: #565a5c;
   background-color: #fff;
@@ -9030,7 +9030,7 @@ select {
   /* Safari and Chrome */
 }
 
-/* line 221, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 221, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .select:before {
   content: '\25bc';
   font-size: 1.2em;
@@ -9041,7 +9041,7 @@ select {
   transform: scale(0.84, 0.42);
 }
 
-/* line 232, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 232, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 input[type="checkbox"] {
   height: 1.25em;
   width: 1.25em;
@@ -9057,7 +9057,7 @@ input[type="checkbox"] {
   /* Safari and Chrome */
 }
 
-/* line 245, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 245, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 input[type="checkbox"]:checked:before {
   content: "\2713";
   position: absolute;
@@ -9067,13 +9067,13 @@ input[type="checkbox"]:checked:before {
   color: #5f5aff;
 }
 
-/* line 254, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 254, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .btn-file {
   position: relative;
   overflow: hidden;
 }
 
-/* line 259, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 259, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .btn-file input[type=file] {
   position: absolute;
   top: 0;
@@ -9090,65 +9090,65 @@ input[type="checkbox"]:checked:before {
   display: block;
 }
 
-/* line 275, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 275, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .panel-default.preview {
   border-color: #eee !important;
   border-radius: 2px;
   border: 1px solid;
 }
 
-/* line 284, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 284, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .preview a {
   text-decoration: none;
   color: #555;
 }
 
-/* line 289, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 289, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .preview a:hover {
   text-decoration: none;
   color: #d9534f;
 }
 
-/* line 294, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 294, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .panel-heading.preview {
   padding: 0;
   border-bottom: 0px;
 }
 
-/* line 300, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 300, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .panel-heading.preview img {
   width: 100%;
 }
 
-/* line 304, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 304, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .amenities li {
   margin-bottom: 10px;
   list-style-type: none;
 }
 
-/* line 309, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 309, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .text-line-through {
   text-decoration: line-through;
 }
 
-/* line 313, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 313, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .reservation-table td {
   width: 100%;
   border: 1px solid #dce0e0;
   padding: 10px;
 }
 
-/* line 319, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 319, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .img-responsive {
   width: 100%;
 }
 
-/* line 323, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 323, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .wide {
   width: 100%;
 }
 
-/* line 328, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 328, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .price_tag {
   background-color: #606567;
   color: #fff;
@@ -9157,19 +9157,19 @@ input[type="checkbox"]:checked:before {
   margin-bottom: 10px;
 }
 
-/* line 337, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 337, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 #wrapper {
   width: 960px;
   margin: 0 auto;
 }
 
-/* line 343, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 343, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 #sidebar {
   float: right;
   width: 340px;
 }
 
-/* line 348, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 348, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 #sidebar #widget {
   width: 340px;
   height: 600px;
@@ -9177,59 +9177,59 @@ input[type="checkbox"]:checked:before {
   border-bottom: 1px solid #ccc;
 }
 
-/* line 356, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 356, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 #article {
   width: 560px;
 }
 
-/* line 360, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 360, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .discovery-card {
   background-size: cover;
   background-position: center;
   height: 326px;
 }
 
-/* line 367, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 367, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .va-container {
   display: table;
   width: 100%;
   height: 100%;
 }
 
-/* line 373, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 373, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .va-middle {
   color: #fff;
   vertical-align: middle;
   display: table-cell;
 }
 
-/* line 379, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 379, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 a.discovery {
   text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
 }
 
-/* line 383, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 383, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 a.discovery:hover {
   text-decoration: none;
 }
 
-/* line 387, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 387, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 input.invalid, textarea.invalid {
   border: 2px solid red;
 }
 
-/* line 391, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 391, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 input.valid, textarea.valid {
   border: 2px solid green;
 }
 
-/* line 395, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 395, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .panel {
   border: 0px;
   box-shadow: 0 0px 0px;
 }
 
-/* line 401, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 401, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .date-arrow:before {
   content: '\25bc';
   font-size: 1.3em;
@@ -9240,51 +9240,51 @@ input.valid, textarea.valid {
   transform: scale(0.84, 0.52);
 }
 
-/* line 411, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 411, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .symbol-sm {
   height: 2em;
 }
 
-/* line 415, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 415, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .text-small {
   font-size: 0.7em;
 }
 
 @media screen and (min-width: 0px) and (max-width: 799px) {
-  /* line 420, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+  /* line 420, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
   .hide-on-small {
     display: none;
   }
 }
 @media screen and (min-width: 0px) and (max-width: 799px) {
-  /* line 424, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+  /* line 424, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
   .show-on-small {
     display: visible;
   }
 }
-/* line 427, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 427, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .navbar-nav > li, .navbar-nav {
   float: left !important;
 }
 
-/* line 432, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 432, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .navbar-nav.navbar-right:last-child {
   margin-right: -15px !important;
 }
 
-/* line 436, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 436, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .navbar-right {
   float: right !important;
 }
 
-/* line 440, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 440, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .frame {
   width: 100%;
   height: 160px;
   padding: 0;
 }
 
-/* line 441, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 441, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .frame .slidee {
   margin: 0;
   padding: 0;
@@ -9292,7 +9292,7 @@ input.valid, textarea.valid {
   list-style: none;
 }
 
-/* line 442, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 442, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .frame .slidee li {
   float: left;
   margin: 0 5px 0 0;
@@ -9303,13 +9303,13 @@ input.valid, textarea.valid {
   border-radius: 1em;
 }
 
-/* line 452, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 452, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .scrollbar {
   width: 100%;
   height: 20px;
 }
 
-/* line 453, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 453, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .scrollbar .handle {
   width: 10%;
   /* overriden if dynamicHandle: 1 */
@@ -9319,7 +9319,7 @@ input.valid, textarea.valid {
   cursor: pointer;
 }
 
-/* line 461, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 461, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .scrollbar-container {
   background-color: lightgrey;
   opacity: .5;
@@ -9329,7 +9329,7 @@ input.valid, textarea.valid {
   border-radius: 1em;
 }
 
-/* line 470, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 470, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .image-cover {
   background-size: cover;
   background-position: center;
@@ -9337,7 +9337,7 @@ input.valid, textarea.valid {
   max-height: 15em;
 }
 
-/* line 477, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 477, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .image-cover-big {
   background-size: cover;
   background-position: center;
@@ -9345,7 +9345,7 @@ input.valid, textarea.valid {
   max-height: 40em;
 }
 
-/* line 484, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 484, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .has-feedback .form-control-feedback {
   position: absolute;
   top: 2em;
@@ -9358,7 +9358,7 @@ input.valid, textarea.valid {
 }
 
 /* The switch - the box around the slider */
-/* line 496, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 496, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .switch {
   position: relative;
   display: inline-block;
@@ -9367,13 +9367,13 @@ input.valid, textarea.valid {
 }
 
 /* Hide default HTML checkbox */
-/* line 504, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 504, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .switch input {
   display: none;
 }
 
 /* The slider */
-/* line 507, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 507, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .slider {
   position: absolute;
   cursor: pointer;
@@ -9386,7 +9386,7 @@ input.valid, textarea.valid {
   transition: .4s;
 }
 
-/* line 519, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 519, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .slider:before {
   position: absolute;
   content: "";
@@ -9399,17 +9399,17 @@ input.valid, textarea.valid {
   transition: .4s;
 }
 
-/* line 531, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 531, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 input:checked + .slider {
   background-color: #2196F3;
 }
 
-/* line 535, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 535, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 input:focus + .slider {
   box-shadow: 0 0 1px #2196F3;
 }
 
-/* line 539, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 539, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 input:checked + .slider:before {
   -webkit-transform: translateX(26px);
   -ms-transform: translateX(26px);
@@ -9417,12 +9417,12 @@ input:checked + .slider:before {
 }
 
 /* Rounded sliders */
-/* line 546, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 546, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .slider.round {
   border-radius: 34px;
 }
 
-/* line 550, /Users/ruizhi/Documents/CamMat/website/cammat_V0/app/assets/stylesheets/application.scss */
+/* line 550, /Users/ruizhi/Documents/HexagonalFab/website/hexagonalfab_V0/app/assets/stylesheets/application.scss */
 .slider.round:before {
   border-radius: 50%;
 }
