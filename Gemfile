@@ -30,6 +30,8 @@ gem 'jbuilder', '~> 2.5'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 
+gem 'nokogiri', '~>1.8.0'
+
 
 group :development, :test do
   gem 'sqlite3', '1.3.13'
