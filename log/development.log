@@ -9229,3 +9229,1004 @@ Processing by StaticPagesController#contact as HTML
 Completed 200 OK in 27ms (Views: 22.3ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-12-30 10:49:38 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (359.2ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 1070ms (Views: 447.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-30 10:50:19 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.7ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 28ms (Views: 24.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-30 10:50:20 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.3ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 27ms (Views: 24.8ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 10:50:21 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (1.5ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 27ms (Views: 23.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-30 10:50:22 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.9ms)
+  Rendered shared/_navbar.html.erb (21.3ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 49ms (Views: 47.2ms)
+
+
+Started GET "/technology" for 127.0.0.1 at 2017-12-30 10:50:23 +0100
+Processing by StaticPagesController#technology as HTML
+  Rendering static_pages/technology.html.erb within layouts/application
+  Rendered static_pages/technology.html.erb within layouts/application (1.7ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 31ms (Views: 26.9ms)
+
+
+Started GET "/team" for 127.0.0.1 at 2017-12-30 10:50:24 +0100
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (2.0ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 37ms (Views: 28.6ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2017-12-30 10:50:25 +0100
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 31ms (Views: 25.9ms)
+
+
+Started GET "/technology" for 127.0.0.1 at 2017-12-30 10:50:25 +0100
+Processing by StaticPagesController#technology as HTML
+  Rendering static_pages/technology.html.erb within layouts/application
+  Rendered static_pages/technology.html.erb within layouts/application (1.8ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 29ms (Views: 26.5ms)
+
+
+Started GET "/technology" for 127.0.0.1 at 2017-12-30 10:50:51 +0100
+Processing by StaticPagesController#technology as HTML
+  Rendering static_pages/technology.html.erb within layouts/application
+  Rendered static_pages/technology.html.erb within layouts/application (3.4ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 32ms (Views: 28.4ms)
+
+
+Started GET "/team" for 127.0.0.1 at 2017-12-30 10:51:24 +0100
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (5.1ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 57ms (Views: 51.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-30 10:51:37 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (3.0ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 31ms (Views: 28.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-30 10:52:20 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (3.4ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 2476ms (Views: 2473.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-30 10:52:30 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.8ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 2094ms (Views: 2090.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-30 10:53:27 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.9ms)
+  Rendered shared/_navbar.html.erb (1.1ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 2290ms (Views: 2288.1ms)
+
+
+Started GET "/technology" for 127.0.0.1 at 2017-12-30 10:53:30 +0100
+Processing by StaticPagesController#technology as HTML
+  Rendering static_pages/technology.html.erb within layouts/application
+  Rendered static_pages/technology.html.erb within layouts/application (1.8ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 28ms (Views: 25.1ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 10:53:35 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (1.7ms)
+  Rendered shared/_navbar.html.erb (1.0ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 62ms (Views: 60.1ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 10:54:24 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (2.5ms)
+  Rendered shared/_navbar.html.erb (1.1ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 39ms (Views: 32.4ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 10:57:10 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (2.6ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 42ms (Views: 35.0ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 10:59:40 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (2.7ms)
+  Rendered shared/_navbar.html.erb (1.9ms)
+  Rendered shared/_footer.html.erb (1.9ms)
+Completed 200 OK in 47ms (Views: 41.7ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 10:59:41 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (4.5ms)
+  Rendered shared/_navbar.html.erb (2.4ms)
+  Rendered shared/_footer.html.erb (2.2ms)
+Completed 200 OK in 61ms (Views: 57.6ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 10:59:50 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (6.0ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 61ms (Views: 55.2ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 10:59:56 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (2.0ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 33ms (Views: 26.2ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:02:56 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (2.1ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 1880ms (Views: 1876.4ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:03:08 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (2.3ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 32ms (Views: 26.4ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:03:24 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (2.1ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 36ms (Views: 29.4ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:03:27 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (1.9ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 30ms (Views: 24.3ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:03:28 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (1.9ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 27ms (Views: 24.7ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:03:34 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (2.7ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 36ms (Views: 33.0ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:03:39 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (2.5ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 27ms (Views: 23.1ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:05:57 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (2.7ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 37ms (Views: 29.8ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:06:00 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (4.5ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 38ms (Views: 33.1ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:06:00 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (1.9ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 27ms (Views: 24.3ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:08:50 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (2.0ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 29ms (Views: 25.5ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:09:17 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (2.1ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 2082ms (Views: 2075.2ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:09:24 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (3.2ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 2100ms (Views: 2095.5ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:09:34 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (3.9ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 1766ms (Views: 1760.5ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:11:41 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (2.7ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 31ms (Views: 26.9ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:11:43 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (2.1ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 51ms (Views: 47.1ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:11:51 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (4.4ms)
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 46ms (Views: 38.8ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:12:07 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (4.3ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 54ms (Views: 45.9ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:13:46 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (3.9ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 1917ms (Views: 1910.9ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:14:06 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (2.3ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 2071ms (Views: 2067.0ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:15:10 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (2.1ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 27ms (Views: 24.1ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:15:29 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (1.9ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 25ms (Views: 22.2ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:16:38 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (2.7ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 33ms (Views: 27.7ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:16:39 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (2.0ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 26ms (Views: 23.7ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:17:16 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (2.0ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 29ms (Views: 23.0ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:17:17 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (2.1ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 28ms (Views: 24.2ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:19:17 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (2.2ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 27ms (Views: 24.1ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:19:19 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (1.9ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 25ms (Views: 22.9ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:20:59 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (2.1ms)
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:21:01 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (2.1ms)
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered shared/_footer.html.erb (5.2ms)
+Completed 200 OK in 2403ms (Views: 2399.5ms)
+
+
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 2168ms (Views: 2164.2ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:21:05 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (2.8ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 31ms (Views: 27.9ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:21:16 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (2.6ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 37ms (Views: 31.8ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:22:07 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (5.5ms)
+  Rendered shared/_navbar.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 47ms (Views: 41.4ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:23:48 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (2.3ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 44ms (Views: 36.0ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:23:49 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (2.3ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 32ms (Views: 27.5ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:25:12 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (2.3ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 26ms (Views: 23.2ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:25:20 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (3.8ms)
+  Rendered shared/_navbar.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 40ms (Views: 34.9ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:25:48 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (1.8ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 30ms (Views: 25.1ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:26:06 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (2.4ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 28ms (Views: 23.8ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:26:17 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (2.5ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 33ms (Views: 27.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-30 11:26:29 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (4.5ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (1.3ms)
+Completed 200 OK in 30ms (Views: 27.6ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:26:43 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (1.7ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 25ms (Views: 23.1ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:26:53 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (1.9ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 28ms (Views: 24.1ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:27:20 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (2.6ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 26ms (Views: 22.9ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:28:03 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (2.0ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 34ms (Views: 28.3ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:28:21 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (1.6ms)
+  Rendered shared/_navbar.html.erb (1.0ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 28ms (Views: 24.3ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:29:26 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (1.9ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 33ms (Views: 27.4ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-12-30 11:30:21 +0100
+Processing by StaticPagesController#news as HTML
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (2.4ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 51ms (Views: 45.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-30 11:30:26 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (4.8ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 30ms (Views: 28.0ms)
+
+
+Started GET "/team" for 127.0.0.1 at 2017-12-30 11:30:36 +0100
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (1.7ms)
+  Rendered shared/_navbar.html.erb (1.0ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 27ms (Views: 24.3ms)
+
+
+Started GET "/team" for 127.0.0.1 at 2017-12-30 11:40:29 +0100
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (1.6ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 33ms (Views: 30.0ms)
+
+
+Started GET "/team" for 127.0.0.1 at 2017-12-30 11:41:24 +0100
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (1.5ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 29ms (Views: 24.7ms)
+
+
+Started GET "/team" for 127.0.0.1 at 2017-12-30 11:41:25 +0100
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (1.5ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 26ms (Views: 23.5ms)
+
+
+Started GET "/team" for 127.0.0.1 at 2017-12-30 11:41:33 +0100
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (1.5ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 31ms (Views: 26.1ms)
+
+
+Started GET "/team" for 127.0.0.1 at 2017-12-30 11:42:23 +0100
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (1.7ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 28ms (Views: 25.1ms)
+
+
+Started GET "/team" for 127.0.0.1 at 2017-12-30 11:42:56 +0100
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (1.8ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 2050ms (Views: 2044.9ms)
+
+
+Started GET "/team" for 127.0.0.1 at 2017-12-30 11:44:26 +0100
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (2.7ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 28ms (Views: 25.0ms)
+
+
+Started GET "/team" for 127.0.0.1 at 2017-12-30 11:44:41 +0100
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (1.5ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 29ms (Views: 26.0ms)
+
+
+Started GET "/team" for 127.0.0.1 at 2017-12-30 11:46:47 +0100
+Processing by StaticPagesController#team as HTML
+Completed 406 Not Acceptable in 712ms
+
+
+  
+ActionController::UnknownFormat (StaticPagesController#team is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.1.2) lib/action_controller/metal/implicit_render.rb:53:in `default_render'
+actionpack (5.1.2) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+actionpack (5.1.2) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+actionpack (5.1.2) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.2) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.2) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.2) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.2) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.2) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.2) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.2) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.2) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.2) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.2) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.2) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.2) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.2) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.2) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.2) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.2) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:46:in `block in serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:832:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.2) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.2) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/team" for 127.0.0.1 at 2017-12-30 11:47:11 +0100
+  
+AbstractController::ActionNotFound (The action 'team' could not be found for StaticPagesController):
+  
+actionpack (5.1.2) lib/abstract_controller/base.rb:119:in `process'
+actionview (5.1.2) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.2) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.2) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:46:in `block in serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:832:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.2) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.2) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/team" for 127.0.0.1 at 2017-12-30 11:47:21 +0100
+  
+AbstractController::ActionNotFound (The action 'team' could not be found for StaticPagesController):
+  
+actionpack (5.1.2) lib/abstract_controller/base.rb:119:in `process'
+actionview (5.1.2) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.2) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.2) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:46:in `block in serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:832:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.2) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.2) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/team" for 127.0.0.1 at 2017-12-30 11:47:23 +0100
+  
+AbstractController::ActionNotFound (The action 'team' could not be found for StaticPagesController):
+  
+actionpack (5.1.2) lib/abstract_controller/base.rb:119:in `process'
+actionview (5.1.2) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.2) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.2) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:46:in `block in serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:832:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.2) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.2) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-12-30 11:47:23 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (511.0ms)
+  Rendered shared/_navbar.html.erb (383.5ms)
+Completed 500 Internal Server Error in 939ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `about_path' for #<#<Class:0x007f9477445170>:0x007f947743c7a0>):
+    14:         <li><a href="<%= root_path %>">Home</a></li>
+    15:         <li><a href="<%= news_path %>">News</a></li>
+    16:         <li><a href="<%= technology_path %>">Technology</a></li>
+    17:         <li><a href="<%= about_path %>">About Us</a></li>
+    18:         <li><a href="<%= contact_path %>">Contact</a></li>
+    19:       </ul>
+    20:     </div>
+  
+app/views/shared/_navbar.html.erb:17:in `_app_views_shared__navbar_html_erb___4377045000702416439_70137855339240'
+app/views/layouts/application.html.erb:23:in `_app_views_layouts_application_html_erb___4480319820244702358_70137835635200'
+Started GET "/" for 127.0.0.1 at 2017-12-30 11:48:11 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (3.4ms)
+  Rendered shared/_navbar.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 40ms (Views: 38.1ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2017-12-30 11:48:12 +0100
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (2.3ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+  Rendered shared/_footer.html.erb (1.3ms)
+Completed 200 OK in 36ms (Views: 32.6ms)
+
+

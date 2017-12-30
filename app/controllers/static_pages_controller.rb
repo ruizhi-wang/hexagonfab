@@ -8,7 +8,7 @@ class StaticPagesController < ApplicationController
   def technology
   end
 
-  def team
+  def about
   end
 
   def contact

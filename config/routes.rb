@@ -5,7 +5,7 @@ root 'static_pages#home'
 
 get '/technology', to: 'static_pages#technology'
 get '/contact', to: 'static_pages#contact'
-get '/team', to: 'static_pages#team'
+get '/about', to: 'static_pages#about'
 get '/news', to: 'static_pages#news'
 
 end

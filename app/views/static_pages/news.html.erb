@@ -1,10 +1,57 @@
 <!-- the provide method gives the string "help" as a variable back to the application.html.erb file; there it is defined what to do with that id -->
 <% provide(:title, "News") %>
 
-<h1><center>News</center></h1>
+<div class="text-item">
+  <h1>News</h1>
+</div>
+
+<div class="text-item">
+    <div class="list-item">
+      <table style="width:100%" border='0'>
+        <td><%=image_tag("cabin_placeholder.jpg",size: "100x100")%></td>
+        <td>
+          <p>
+          <b>Lorem Ipsum is simply dummy text of the printing</b><br>
+          19.12.17
+        </p>
+          <p style="text-align:justify">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+        </td>
+      </table>
+    </div>
+</div>
+
 <div class="text-item">
   <div class="list-item">
-    <%=image_tag("cabin_placeholder.jpg",size: "100x100")%>
-    This is a place holder text
-  </div>
+    <table style="width:100%" border='0'>
+      <td><%=image_tag("cabin_placeholder.jpg",size: "100x100")%></td>
+      <td>
+        <p>
+        <b>Lorem Ipsum is simply dummy text of the printing</b><br>
+        19.12.17
+        </p>
+          <p style="text-align:justify">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+      </td>
+      </table>
+    </div>
+</div>
+
+<div class="text-item">
+  <div class="list-item">
+    <table style="width:100%" border='0'>
+      <td><%=image_tag("cabin_placeholder.jpg",size: "100x100")%></td>
+      <td>
+        <p>
+        <b>Lorem Ipsum is simply dummy text of the printing</b><br>
+        19.12.17
+        </p>
+          <p style="text-align:justify">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+      </td>
+      </table>
+    </div>
 </div>
