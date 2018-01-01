@@ -5,7 +5,7 @@ class StaticPagesController < ApplicationController
   def news
   end
 
-  def technology
+  def product
   end
 
   def about

@@ -75,20 +75,23 @@ body {
   border-width: 0 0 0px;
 }
 
+.nav.navbar-nav.navbar-right li.navbar-highlight a {
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  background-color: grey;
+  padding: 5px;
+ }
 
-.navbar-default {
-  background-color: #ffffff;
-}
+ .nav.navbar-nav.navbar-right li.navbar-highlight a:hover {
+   background-color: lightgrey;
+  }
 
-.navbar-default .navbar-brand {
-  color: #FF5A5F;
-  font-size: 2em;
-  font-weight: 400;
-}
+.nav.navbar-nav.navbar-right li.navbar-btn a {
+    padding: 10px
+   }
 
-.navbar-header {
-  height:3em;
-}
 // ------------------------------------------------------------------------
 // Footer
 footer {
@@ -132,7 +135,7 @@ footer ul li {
 // Button
 .btn-primary.btn {
   border: 1px solid black;
-  border-radius: 30px;
+  border-radius: 10px;
   font-weight: bold;
   background-color: #fffff;
   color: #fff;
@@ -145,15 +148,19 @@ footer ul li {
   outline:none;
 }
 
-.btn-primary.btn:active {
-  border-color: #e00007;
-  background-color: #e00007;
-  outline:none;
+.btn-default.btn {
+  border-radius: 5px;
+  padding: 1px 1px 1px 1px;
 }
 
-.btn-default.btn {
-  border-radius: 30px;
-  padding: 10px 25px 10px 25px;
+.navbar-default.btn {
+  background-color: white;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.navbar-hidden.btn {
 }
 
 // ------------------------------------------------------------------------

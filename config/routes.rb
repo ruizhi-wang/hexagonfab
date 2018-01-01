@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
 root 'static_pages#home'
 
-get '/technology', to: 'static_pages#technology'
+get '/product', to: 'static_pages#product'
 get '/contact', to: 'static_pages#contact'
 get '/about', to: 'static_pages#about'
 get '/news', to: 'static_pages#news'
