@@ -8,4 +8,6 @@ get '/contact', to: 'static_pages#contact'
 get '/about', to: 'static_pages#about'
 get '/news', to: 'static_pages#news'
 
+get '/test', to: 'static_pages#test'
+
 end

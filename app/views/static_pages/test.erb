@@ -1,0 +1,33 @@
+<div class="row">
+  <div class="col-md-10 col-md-offset-1">
+    This is a test page <br>
+    The locale is:
+    <%= locale %>
+    <%= t('language') %>
+
+    <%= form_tag(test_path, method: "get") do %>
+        <%= label_tag(:q, "Search for:") %>
+        <%= text_field_tag(:q) %>
+        <%= text_field_tag :locale, locale, class: 'hidden' %>
+        <%= submit_tag("Search") %>
+    <% end %>
+  </div>
+
+<br>
+<%= Time.now.strftime(t('date.date.formats.long'))%>
+<br>
+<%= t('date.datetime.prompts.day')%>
+<br>
+<%= '01.01.1990'%>
+
+
+
+<!-- <ul class="dropdown-menu">
+       <li><%= link_to "English", locale: 'en', class: "btn navbar-btn" %></li>
+       <li><%= link_to "中文", locale: 'cn', class: "btn navbar-btn" %></li>
+</ul> -->
+
+<br>
+<br>
+<br>
+<%= link_to "Home", root_path, class: "btn btn-lg btn-primary" %>

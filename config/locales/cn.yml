@@ -1,0 +1,39 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# en:
+#   'true': 'foo'
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+cn:
+  hello: "你好"
+  language: "语言"
+  title: "纳米材料"
+  subtitle: "探测器纳米材料"
+  landing-text: "加変仏術開再両覧読変山疑賞。質者聞故芸絶文質会同果説面文加計公都日再。需真元峯九記民海際沼稿由聞評離。年回気道保的機壊票響買門災十。転平岡飲容握個市展室寂西秋戦。消定切頂催面裁携立名水庁観国楽。貢富盟避残面思食保猟後森決国聞経。町水著書需数二負発込猫大油捕哨。転覇際善己上母通出量続春整憶。村質力億理警楽県関田航講製。
+初旅球問車抗推全労絶破一時評話社価日。来衛用連任線義付写再象答選。力最算引変載交際府試南太聞彰芋房変占索。携口収佃成止長島般販持権預新案。文込末計補分賠損時確税腫控政好入本新厚。摩生年検銭羽断抜容止食雪提中意旅報選。調申期断足安送七分国都現見。込意読勧韓宝多事退明火早鮮死討乗出出編検。四周境境馬届師投耕公郵埼隆康政。"
+  soon: 将来

@@ -28,6 +28,13 @@
 #
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
-
 en:
   hello: "Hello world"
+  language: "Language"
+  title: "Nanomaterials"
+  subtitle: "Nanomaterials for Sensor Platforms"
+  landing-text: "Stone, bronze, steel and silicon age:
+  the corner stone to advances in society were enabled by
+  methods of material processing. Nanomaterials are the next big frontier.
+  At HexagonFab, our mission is to bring two dimensional materials from laboratory to industry"
+  soon: "Details coming soon"

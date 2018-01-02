@@ -1,12 +1,24 @@
 <footer class="footer">
   <div class="container">
     <small>
-      HexagonFab.co.uk Beta 0.2
+        HexagonFab.com Beta 0.2
     </small>
-    <!-- <nav>
-      <ul>
-        <li><%= link_to "Contact", contact_path %></li>
-      </ul>
-    </nav> -->
+
+    <nav class="navbar-right navbar-language">
+        <div class="dropup">
+          <div class="btn-group">
+            <button type="button" class="btn btn-language"><i class="fa fa-globe" aria-hidden="true"></i> <%= t('language')%></button>
+            <button type="button" class="btn btn-language-toggle dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="caret"></span>
+              <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-wide">
+              <li><%= link_to "English", locale: 'en', class: "btn navbar-btn" %></li>
+              <li><%= link_to "中文", locale: 'cn', class: "btn navbar-btn" %></li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
   </div>
 </footer>
