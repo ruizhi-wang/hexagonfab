@@ -73,6 +73,10 @@ body {
   padding-right:0px;
 }
 
+#correct_answer {
+  display:none;
+}
+
 // ------------------------------------------------------------------------
 // Navbar design
 .navbar-fixed-top {
@@ -82,7 +86,7 @@ body {
 }
 
 .nav.navbar-nav.navbar-right li.navbar-btn a {
-    padding: 5px
+    padding: 5px;
    }
 
 // ------------------------------------------------------------------------
@@ -110,10 +114,13 @@ footer small {
 // List
 
 .list-item {
+  margin-top: 40px;
+  margin-bottom: 40px;
   padding: 10px 0;
   font-size: 16px;
   color: #82888a;
-  border-top: 1px solid #CCC;
+  border: 1px solid #CCC;
+  border-radius: 10px;;
 }
 
 // ------------------------------------------------------------------------
@@ -150,9 +157,10 @@ footer small {
   border: 2px solid black
 }
 
-.navbar-default {
+.nav.navbar-nav.navbar-right li.navbar-btn a.navbar-default{
+  color: black;
   background-color: white;
-  border-radius: 1px;
+  border-radius: 3px;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -164,15 +172,10 @@ footer small {
   margin-right: 10px;
 }
 
-.navbar-hidden{
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
-.nav.navbar-right.navbar-language{
-  background-color: lightblue
+.nav.navbar-nav.navbar-right li.navbar-btn a.navbar-hidden{
+  padding-left: 10px;
+  padding-right: 10px;
+  border-left: 0.5px solid lightgrey;
 }
 
 

@@ -10,4 +10,7 @@ get '/news', to: 'static_pages#news'
 
 get '/test', to: 'static_pages#test'
 
+# Js partials
+get 'correct_answer', to: 'static_page#correct_answer'
+
 end

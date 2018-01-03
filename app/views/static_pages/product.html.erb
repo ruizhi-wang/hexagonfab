@@ -1,14 +1,42 @@
 <% provide(:title, "Product") %>
-<h1><center>Product</center></h1>
 <div class="text-item">
-  <div class="list-item">
-    <%=image_tag("CuTile_R1_v2_250X_01_edit.jpg",size: "200x200")%>
-    This is a place holder text
-  </div>
+  <h1> <%=t('product.product')%> </h1>
+</div>
 
-  <div class="list-item">
-    <%=image_tag("CuTile_R1_v2_250X_01_edit.jpg",size: "200x200")%>
-    This is a place holder text
-  </div>
+<div class="text-item">
+    <div class="list-item">
+      <table style="width:100%" border='0'>
+        <td><%=image_tag("CuTile_R1_v2_250X_01_edit.jpg",size: "200x200")%></td>
+        <td>
+          <p>
+          <b><%=t('product.graphene-title')%></b>
+          </p>
+          <p style="text-align:justify">
+          <%=t('product.graphene-text')%>
+          </p>
+          <div class="center">
+            <%= link_to t('product.findmore'), product_path, class: "btn btn-primary" %>
+          </div>
+        </td>
+      </table>
+    </div>
+</div>
 
+<div class="text-item">
+    <div class="list-item">
+      <table style="width:100%" border='0'>
+        <td><%=image_tag("CuTile_R1_v2_250X_01_edit.jpg",size: "200x200")%></td>
+        <td>
+          <p>
+          <b><%=t('product.hBN-title')%></b>
+          </p>
+          <p style="text-align:justify">
+          <%=t('product.hBN-text')%>
+          </p>
+          <div class="center">
+            <%= link_to t('product.findmore'), product_path, class: "btn btn-primary" %>
+          </div>
+        </td>
+      </table>
+    </div>
 </div>

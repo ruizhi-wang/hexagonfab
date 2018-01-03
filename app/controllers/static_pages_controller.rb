@@ -16,4 +16,11 @@ class StaticPagesController < ApplicationController
 
   def test
   end
+
+  def correct_answer
+    respond_to do |format|
+      format.js
+    end
+  end
+
 end
