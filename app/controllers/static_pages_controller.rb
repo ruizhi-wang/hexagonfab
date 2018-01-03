@@ -11,15 +11,12 @@ class StaticPagesController < ApplicationController
   def about
   end
 
-  def contact
-  end
-
   def test
-  end
+    @request = params[:decision].to_i
 
-  def correct_answer
-    respond_to do |format|
-      format.js
+    if @request == 1
+      flash[:alert] = "Email Sent"
+      @request=2
     end
   end
 

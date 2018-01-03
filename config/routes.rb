@@ -4,7 +4,6 @@ Rails.application.routes.draw do
 root 'static_pages#home'
 
 get '/product', to: 'static_pages#product'
-get '/contact', to: 'static_pages#contact'
 get '/about', to: 'static_pages#about'
 get '/news', to: 'static_pages#news'
 
@@ -12,5 +11,7 @@ get '/test', to: 'static_pages#test'
 
 # Js partials
 get 'correct_answer', to: 'static_page#correct_answer'
+
+resources "contacts", only: [:new, :create]
 
 end

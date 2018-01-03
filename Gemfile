@@ -35,6 +35,10 @@ gem 'nokogiri', '~>1.8.0'
 # Language Support
 gem 'rails-i18n', '~> 5.0.0' # For 5.0.x and 5.1.x
 
+# Mailer Form
+gem 'haml-rails'
+gem 'mail_form'
+gem 'simple_form'
 
 group :development, :test do
   gem 'sqlite3', '1.3.13'

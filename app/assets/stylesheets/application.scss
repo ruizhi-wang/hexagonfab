@@ -7,6 +7,8 @@
 // example .btn2.btn uses btn2 as the base class and takes all the non-available
 // definitions from btn
 
+.hidden { display: none; }
+
 body {
   color: #565a5c;
   background-color: black;
