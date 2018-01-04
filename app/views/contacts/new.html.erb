@@ -1,0 +1,107 @@
+<!--Table style definitions  -->
+<style media="screen">
+  table, th, td {
+    /* border: 1px solid black; */
+    padding: 0px;
+  }
+
+  td#cell {
+    padding-top:1px;
+    padding-bottom:1px;
+  }
+
+  td#small-cell-1 {
+    max-width: 5em;
+    padding-top:1px;
+    padding-bottom:1px;
+  }
+
+  td#small-cell-2 {
+    padding-top:1px;
+    padding-bottom:1px;
+  }
+
+  td#space {
+    padding-top: 1.25px;
+    padding-bottom: 1.25px;
+  }
+
+</style>
+
+<!--Actual page layout: Table  -->
+
+<div class:="container">
+
+  <div class="text-item justify">
+    <h3><p>Contact Details</p><small>
+      <!-- <%=t('contact.contact-text')%> -->
+    </small></h3>
+  </div>
+
+  <div class="text-item">
+    <div class="list-item-top">
+      <table id="general" style="width:100%">
+        <tr>
+          <th>Name</th>
+          <td id="cell" colspan="2">HexagonFab Lld</td>
+        </tr>
+
+        <tr>
+          <td style="space"></td>
+        </tr>
+
+        <tr>
+          <th>Address</th>
+          <td id="cell" colspan="2">HexagonFab Lld <br> Pembroke College <br> Cb2 1RF Cambridge</td>
+        </tr>
+
+        <tr>
+          <td style="space"></td>
+        </tr>
+
+        <tr>
+          <th rowspan="2">Email</th>
+          <td id="small-cell-1"><b>Sales</b></td>
+          <td id="small-cell-2">sales@hexagonfab.com</td>
+        </tr>
+        <tr>
+          <td id="small-cell-1"><b>General</b></td>
+          <td id="small-cell-2">info@hexagonfab.com</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="text-item justify">
+    <h3><small><%=t('contact.contactform-text')%></small></h3>
+  </div>
+  <br>
+
+<!--Actual page layout: Contact form  -->
+
+
+<div class="text-item justify">
+  <h3><p>Contact Form</p><small>
+    <!-- <%=t('contact.contact-text')%> -->
+  </small></h3>
+</div>
+<div class="contact-form">
+  <%= simple_form_for @contact, :html => {:class => 'form-horizontal' } do |f| %>
+    <%= f.input :name, :required => true %>
+    <%= f.input :email, :required => true %>
+    <%= f.input :message, :as => :text, :required => false, :input_html => {:rows => 10} %>
+
+    <div class="hidden">
+      <%=f.input :nickname, :hint => 'Leave this field blank!'%>
+    </div>
+
+    <div class="form-actions">
+      <%= f.button :submit, 'Send message', :class=> "btn" %>
+    </div>
+  <%end %>
+
+</div>
+
+<br>
+<br>
+
+</div>

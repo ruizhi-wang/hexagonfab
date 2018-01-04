@@ -19217,3 +19217,2068 @@ Processing by ContactsController#new as HTML
 Completed 200 OK in 49ms (Views: 43.3ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-01-04 10:16:39 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (446.3ms)
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (1.3ms)
+Completed 200 OK in 2626ms (Views: 528.6ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 10:16:52 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.haml within layouts/application
+  Rendered contacts/new.html.haml within layouts/application (105.4ms)
+  Rendered shared/_navbar.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 148ms (Views: 129.0ms)
+
+
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 10:16:58 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dAgf0DXyn7dnvfmTn7IA+H/AzyNUA+Cew4cB9MDuyhMCDP7uplE2KkPuXcf/dkHhPQNAQF/BpfFxJnfk2tIxvA==", "contact"=>{"name"=>"", "email"=>"", "message"=>"", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering contacts/new.html.haml within layouts/application
+  Rendered contacts/new.html.haml within layouts/application (11.3ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 41ms (Views: 39.6ms)
+
+
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 10:17:31 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dAgf0DXyn7dnvfmTn7IA+H/AzyNUA+Cew4cB9MDuyhMCDP7uplE2KkPuXcf/dkHhPQNAQF/BpfFxJnfk2tIxvA==", "contact"=>{"name"=>"", "email"=>"", "message"=>"", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering contacts/new.html.haml within layouts/application
+  Rendered contacts/new.html.haml within layouts/application (5.4ms)
+Completed 500 Internal Server Error in 17ms
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %h1 and nested within it.):
+    1: .container
+    2:   %h1 Contact
+    3:     .text-item
+    4:     = simple_form_for @contact, :html => {:class => 'form-horizontal' } do |f|
+    5:       = f.input :name, :required => true
+    6:       = f.input :email, :required => true
+  
+app/views/contacts/new.html.haml:3
+app/controllers/contacts_controller.rb:14:in `create'
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 10:18:00 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dAgf0DXyn7dnvfmTn7IA+H/AzyNUA+Cew4cB9MDuyhMCDP7uplE2KkPuXcf/dkHhPQNAQF/BpfFxJnfk2tIxvA==", "contact"=>{"name"=>"", "email"=>"", "message"=>"", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering contacts/new.html.haml within layouts/application
+  Rendered contacts/new.html.haml within layouts/application (8.0ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 36ms (Views: 34.6ms)
+
+
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 10:18:49 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dAgf0DXyn7dnvfmTn7IA+H/AzyNUA+Cew4cB9MDuyhMCDP7uplE2KkPuXcf/dkHhPQNAQF/BpfFxJnfk2tIxvA==", "contact"=>{"name"=>"", "email"=>"", "message"=>"", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering contacts/new.html.haml within layouts/application
+  Rendered contacts/new.html.haml within layouts/application (9.4ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (1.9ms)
+Completed 200 OK in 2793ms (Views: 2791.5ms)
+
+
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 10:19:38 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dAgf0DXyn7dnvfmTn7IA+H/AzyNUA+Cew4cB9MDuyhMCDP7uplE2KkPuXcf/dkHhPQNAQF/BpfFxJnfk2tIxvA==", "contact"=>{"name"=>"", "email"=>"", "message"=>"", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering contacts/new.html.haml within layouts/application
+  Rendered contacts/new.html.haml within layouts/application (8.7ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 2201ms (Views: 2199.5ms)
+
+
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 10:19:48 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dAgf0DXyn7dnvfmTn7IA+H/AzyNUA+Cew4cB9MDuyhMCDP7uplE2KkPuXcf/dkHhPQNAQF/BpfFxJnfk2tIxvA==", "contact"=>{"name"=>"", "email"=>"", "message"=>"", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering contacts/new.html.haml within layouts/application
+  Rendered contacts/new.html.haml within layouts/application (7.9ms)
+  Rendered shared/_navbar.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 39ms (Views: 37.8ms)
+
+
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 10:20:05 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dAgf0DXyn7dnvfmTn7IA+H/AzyNUA+Cew4cB9MDuyhMCDP7uplE2KkPuXcf/dkHhPQNAQF/BpfFxJnfk2tIxvA==", "contact"=>{"name"=>"", "email"=>"", "message"=>"", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering contacts/new.html.haml within layouts/application
+  Rendered contacts/new.html.haml within layouts/application (8.4ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 40ms (Views: 37.6ms)
+
+
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 10:20:48 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dAgf0DXyn7dnvfmTn7IA+H/AzyNUA+Cew4cB9MDuyhMCDP7uplE2KkPuXcf/dkHhPQNAQF/BpfFxJnfk2tIxvA==", "contact"=>{"name"=>"", "email"=>"", "message"=>"", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering contacts/new.html.haml within layouts/application
+  Rendered contacts/new.html.haml within layouts/application (8.2ms)
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 2133ms (Views: 2131.5ms)
+
+
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 10:21:08 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dAgf0DXyn7dnvfmTn7IA+H/AzyNUA+Cew4cB9MDuyhMCDP7uplE2KkPuXcf/dkHhPQNAQF/BpfFxJnfk2tIxvA==", "contact"=>{"name"=>"", "email"=>"", "message"=>"", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering contacts/new.html.haml within layouts/application
+  Rendered contacts/new.html.haml within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 13ms
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %div and nested within it.):
+    2:   %h1 Contact
+    3: 
+    4: .contact-form .center
+    5:   = simple_form_for @contact, :html => {:class => 'form-horizontal' } do |f|
+    6:     = f.input :name, :required => true
+    7:     = f.input :email, :required => true
+    8:     = f.input :message, :as => :text, :required => false, :input_html => {:rows => 10}
+  
+app/views/contacts/new.html.haml:5
+app/controllers/contacts_controller.rb:14:in `create'
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 10:21:22 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dAgf0DXyn7dnvfmTn7IA+H/AzyNUA+Cew4cB9MDuyhMCDP7uplE2KkPuXcf/dkHhPQNAQF/BpfFxJnfk2tIxvA==", "contact"=>{"name"=>"", "email"=>"", "message"=>"", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering contacts/new.html.haml within layouts/application
+  Rendered contacts/new.html.haml within layouts/application (8.0ms)
+  Rendered shared/_navbar.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 39ms (Views: 38.0ms)
+
+
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 10:22:08 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dAgf0DXyn7dnvfmTn7IA+H/AzyNUA+Cew4cB9MDuyhMCDP7uplE2KkPuXcf/dkHhPQNAQF/BpfFxJnfk2tIxvA==", "contact"=>{"name"=>"", "email"=>"", "message"=>"", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering contacts/new.html.haml within layouts/application
+  Rendered contacts/new.html.haml within layouts/application (11.5ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 2177ms (Views: 2174.4ms)
+
+
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 10:23:09 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dAgf0DXyn7dnvfmTn7IA+H/AzyNUA+Cew4cB9MDuyhMCDP7uplE2KkPuXcf/dkHhPQNAQF/BpfFxJnfk2tIxvA==", "contact"=>{"name"=>"", "email"=>"", "message"=>"", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering contacts/new.html.haml within layouts/application
+  Rendered contacts/new.html.haml within layouts/application (8.3ms)
+  Rendered shared/_navbar.html.erb (2.0ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 39ms (Views: 37.3ms)
+
+
+Started GET "/?locale=en" for 127.0.0.1 at 2018-01-04 10:23:26 +0100
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (3.9ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (1.6ms)
+Completed 200 OK in 43ms (Views: 39.0ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-01-04 10:23:27 +0100
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (2.5ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 34ms (Views: 30.1ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 10:24:07 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.haml within layouts/application
+  Rendered contacts/new.html.haml within layouts/application (8.5ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 38ms (Views: 34.2ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 10:24:27 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.haml within layouts/application
+  Rendered contacts/new.html.haml within layouts/application (36.4ms)
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (1.1ms)
+Completed 200 OK in 72ms (Views: 66.8ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 10:27:22 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.haml within layouts/application
+  Rendered contacts/new.html.haml within layouts/application (10.1ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 2352ms (Views: 2347.9ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 10:28:03 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.haml within layouts/application
+  Rendered contacts/new.html.haml within layouts/application (8.1ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 2225ms (Views: 2221.6ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 10:28:23 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.haml within layouts/application
+  Rendered contacts/new.html.haml within layouts/application (13.2ms)
+  Rendered shared/_navbar.html.erb (2.7ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 2445ms (Views: 2440.3ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 10:28:40 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.haml within layouts/application
+  Rendered contacts/new.html.haml within layouts/application (8.4ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 2186ms (Views: 2181.5ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 10:29:16 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.haml within layouts/application
+  Rendered contacts/new.html.haml within layouts/application (8.3ms)
+  Rendered shared/_navbar.html.erb (1.1ms)
+  Rendered shared/_footer.html.erb (1.8ms)
+Completed 200 OK in 2257ms (Views: 2254.2ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 10:29:32 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.haml within layouts/application
+  Rendered contacts/new.html.haml within layouts/application (6.8ms)
+  Rendered shared/_navbar.html.erb (1.1ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 2315ms (Views: 2311.9ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 10:30:42 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.haml within layouts/application
+  Rendered contacts/new.html.haml within layouts/application (8.5ms)
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 2163ms (Views: 2159.9ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-01-04 10:30:53 +0100
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (2.5ms)
+  Rendered shared/_navbar.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 34ms (Views: 31.2ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 10:30:56 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.haml within layouts/application
+  Rendered contacts/new.html.haml within layouts/application (10.1ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (1.1ms)
+Completed 200 OK in 47ms (Views: 43.1ms)
+
+
+Started GET "/news?locale=en" for 127.0.0.1 at 2018-01-04 10:31:22 +0100
+Processing by StaticPagesController#news as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (2.6ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 31ms (Views: 26.0ms)
+
+
+Started GET "/news?locale=en" for 127.0.0.1 at 2018-01-04 10:32:03 +0100
+Processing by StaticPagesController#news as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (2.3ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 33ms (Views: 29.5ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 10:32:07 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.haml within layouts/application
+  Rendered contacts/new.html.haml within layouts/application (8.6ms)
+  Rendered shared/_navbar.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 37ms (Views: 33.4ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-01-04 10:32:09 +0100
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (2.5ms)
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 50ms (Views: 46.7ms)
+
+
+Started GET "/news?locale=en" for 127.0.0.1 at 2018-01-04 10:32:10 +0100
+Processing by StaticPagesController#news as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (2.1ms)
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (1.1ms)
+Completed 200 OK in 38ms (Views: 33.7ms)
+
+
+Started GET "/about?locale=en" for 127.0.0.1 at 2018-01-04 10:32:11 +0100
+Processing by StaticPagesController#about as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (2.0ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 35ms (Views: 30.0ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-01-04 10:32:12 +0100
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (2.4ms)
+  Rendered shared/_navbar.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 30ms (Views: 27.1ms)
+
+
+Started GET "/about?locale=en" for 127.0.0.1 at 2018-01-04 10:32:13 +0100
+Processing by StaticPagesController#about as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (2.1ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 34ms (Views: 29.5ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-01-04 10:32:32 +0100
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (3.3ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (1.3ms)
+Completed 200 OK in 38ms (Views: 34.4ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-01-04 10:32:55 +0100
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (3.2ms)
+  Rendered shared/_navbar.html.erb (1.1ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 2449ms (Views: 2445.3ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 10:32:58 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.haml within layouts/application
+  Rendered contacts/new.html.haml within layouts/application (7.5ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (1.2ms)
+Completed 200 OK in 47ms (Views: 44.3ms)
+
+
+Started GET "/about?locale=en" for 127.0.0.1 at 2018-01-04 10:33:01 +0100
+Processing by StaticPagesController#about as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (2.5ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 44ms (Views: 37.2ms)
+
+
+Started GET "/about?locale=en" for 127.0.0.1 at 2018-01-04 10:33:18 +0100
+Processing by StaticPagesController#about as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (1.8ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 37ms (Views: 32.0ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 10:33:20 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.haml within layouts/application
+  Rendered contacts/new.html.haml within layouts/application (8.5ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 39ms (Views: 34.8ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 10:33:48 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.haml within layouts/application
+  Rendered contacts/new.html.haml within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 15ms
+
+
+  
+ActionView::Template::Error (Invalid tag: "%<br>".):
+    14:       .form-actions
+    15:         = f.button :submit, 'Send message', :class=> "btn"
+    16: 
+    17: %<br>
+    18: %<br>
+  
+app/views/contacts/new.html.haml:17
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 10:33:56 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.haml within layouts/application
+  Rendered contacts/new.html.haml within layouts/application (11.2ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 45ms (Views: 40.9ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 10:35:42 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.haml within layouts/application
+  Rendered contacts/new.html.haml within layouts/application (11.8ms)
+  Rendered shared/_navbar.html.erb (2.7ms)
+  Rendered shared/_footer.html.erb (1.3ms)
+Completed 200 OK in 54ms (Views: 46.8ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 10:35:55 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.haml within layouts/application
+  Rendered contacts/new.html.haml within layouts/application (18.1ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 54ms (Views: 47.5ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 10:36:38 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.haml within layouts/application
+  Rendered contacts/new.html.haml within layouts/application (11.7ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (1.5ms)
+Completed 200 OK in 46ms (Views: 40.4ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 10:36:52 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.haml within layouts/application
+  Rendered contacts/new.html.haml within layouts/application (15.8ms)
+  Rendered shared/_navbar.html.erb (2.1ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 55ms (Views: 51.4ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 10:37:53 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.haml within layouts/application
+  Rendered contacts/new.html.haml within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 13ms
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %div and nested within it.):
+     9:           Email:
+    10:         %td
+    11:           .border-left 1px
+    12:             info@hexagonfab.com
+    13: 
+    14: 
+    15: 
+  
+app/views/contacts/new.html.haml:12
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 10:38:03 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.haml within layouts/application
+  Rendered contacts/new.html.haml within layouts/application (17.0ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 61ms (Views: 54.1ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 10:39:19 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.haml within layouts/application
+  Rendered contacts/new.html.haml within layouts/application (9.8ms)
+  Rendered shared/_navbar.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 2180ms (Views: 2175.9ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 10:39:37 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.haml within layouts/application
+  Rendered contacts/new.html.haml within layouts/application (10.5ms)
+  Rendered shared/_navbar.html.erb (1.1ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 2239ms (Views: 2236.5ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 10:42:46 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.haml within layouts/application
+  Rendered contacts/new.html.haml within layouts/application (3.7ms)
+Completed 500 Internal Server Error in 30ms
+
+
+  
+ActionView::Template::Error (Inconsistent indentation: 13 spaces used for indentation, but the rest of the document was indented using 2 spaces.):
+    12:             %td
+    13:               General Information:
+    14:             %td
+    15:              info@hexagonfab.com
+    16:             %td
+    17:              Sales:
+    18:             %td
+  
+app/views/contacts/new.html.haml:15
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 10:43:27 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.haml within layouts/application
+  Rendered contacts/new.html.haml within layouts/application (10.2ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 45ms (Views: 38.5ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 10:43:56 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.haml within layouts/application
+  Rendered contacts/new.html.haml within layouts/application (12.1ms)
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 49ms (Views: 45.1ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 10:46:49 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.haml within layouts/application
+  Rendered contacts/new.html.haml within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 14ms
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %th and nested within it.):
+     7:       %table
+     8:       %tr
+     9:         %th :rowspan='2'
+    10:           Telephone:
+    11: 
+    12: 
+    13: 
+  
+app/views/contacts/new.html.haml:10
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 10:51:21 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 33ms (Views: 28.9ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 10:52:52 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 33ms (Views: 29.5ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 10:53:26 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 39ms (Views: 32.0ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 10:53:54 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.6ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 42ms (Views: 34.3ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 10:54:21 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 39ms (Views: 32.0ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 10:55:04 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 32ms (Views: 28.6ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 10:55:44 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.3ms)
+  Rendered shared/_navbar.html.erb (2.0ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 29ms (Views: 26.0ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 10:57:29 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 33ms (Views: 29.5ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 10:57:30 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 35ms (Views: 29.8ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 10:57:57 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.9ms)
+  Rendered shared/_footer.html.erb (1.1ms)
+Completed 200 OK in 35ms (Views: 30.2ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 10:57:58 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 43ms (Views: 36.7ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 10:58:08 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 45ms (Views: 39.0ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 10:58:22 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (2.0ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 31ms (Views: 27.3ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 10:58:23 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 35ms (Views: 29.8ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 10:59:28 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (2.8ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 37ms (Views: 33.0ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:00:47 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 33ms (Views: 28.5ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:01:47 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 34ms (Views: 28.8ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:02:17 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 35ms (Views: 29.0ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:02:33 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (2.0ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 48ms (Views: 40.2ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:03:10 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.8ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 34ms (Views: 28.7ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:03:44 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 32ms (Views: 27.9ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:03:58 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (1.1ms)
+Completed 200 OK in 34ms (Views: 30.0ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:04:33 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.3ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 34ms (Views: 29.0ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:04:43 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 39ms (Views: 32.0ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:06:06 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 46ms (Views: 39.3ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:06:37 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 35ms (Views: 29.2ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:06:51 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (2.0ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 33ms (Views: 29.0ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:06:55 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 34ms (Views: 29.6ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:07:01 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 45ms (Views: 37.7ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:08:25 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 34ms (Views: 29.7ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:09:06 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 33ms (Views: 29.0ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:09:07 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 35ms (Views: 31.7ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:09:59 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 34ms (Views: 28.9ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:10:00 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (1.9ms)
+  Rendered shared/_footer.html.erb (1.1ms)
+Completed 200 OK in 34ms (Views: 31.0ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:10:54 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 35ms (Views: 29.0ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:10:55 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.9ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 34ms (Views: 30.0ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:11:11 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.6ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 34ms (Views: 29.7ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:11:58 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.6ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 42ms (Views: 37.8ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:12:27 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.8ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 38ms (Views: 33.5ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:12:28 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (1.1ms)
+Completed 200 OK in 36ms (Views: 32.3ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:12:41 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 35ms (Views: 30.4ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:12:53 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 37ms (Views: 31.1ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:13:22 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.7ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 35ms (Views: 29.0ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:13:58 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 34ms (Views: 29.0ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:14:11 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 34ms (Views: 29.7ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:15:06 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 33ms (Views: 29.2ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:15:23 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 33ms (Views: 28.9ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:15:43 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 48ms (Views: 40.4ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:16:18 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 40ms (Views: 33.1ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:16:25 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (2.1ms)
+  Rendered shared/_footer.html.erb (1.3ms)
+Completed 200 OK in 34ms (Views: 29.9ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:16:30 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.8ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 49ms (Views: 41.1ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:17:03 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (1.2ms)
+  Rendered shared/_navbar.html.erb (2.2ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 36ms (Views: 31.6ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:17:28 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 34ms (Views: 29.4ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:17:50 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 40ms (Views: 34.9ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:18:02 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.9ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 41ms (Views: 33.3ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:18:25 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 34ms (Views: 29.6ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:18:41 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 33ms (Views: 29.0ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:19:22 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 33ms (Views: 28.8ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:19:29 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.7ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 45ms (Views: 37.3ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:20:06 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 40ms (Views: 32.6ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:20:54 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.6ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 34ms (Views: 29.6ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:22:07 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.6ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 45ms (Views: 36.4ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:22:43 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.7ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 40ms (Views: 34.6ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:22:54 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (7.1ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (1.2ms)
+Completed 200 OK in 46ms (Views: 38.1ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:23:29 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.6ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 37ms (Views: 29.6ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:23:35 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (1.9ms)
+Completed 200 OK in 37ms (Views: 32.3ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:24:34 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (1.3ms)
+Completed 200 OK in 37ms (Views: 33.0ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:26:34 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (1.3ms)
+Completed 200 OK in 1508ms (Views: 30.5ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:26:57 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 33ms (Views: 29.4ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:27:05 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.6ms)
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 35ms (Views: 30.3ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:28:27 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.7ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 36ms (Views: 29.7ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:29:22 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.8ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 34ms (Views: 29.4ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:31:07 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 322ms (Views: 28.7ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:31:21 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 318ms (Views: 23.0ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:32:50 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.7ms)
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 323ms (Views: 27.7ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:33:04 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.6ms)
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (1.1ms)
+Completed 200 OK in 34ms (Views: 29.9ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:33:16 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.6ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 46ms (Views: 41.4ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:33:46 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (1.0ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 301ms (Views: 24.9ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:34:29 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (1.0ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 50ms (Views: 41.7ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:37:12 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 15ms
+
+
+  
+SyntaxError (/Users/ruizhi/Documents/HexagonFab/website/hexagonfab_V0/app/views/contacts/new.html.erb:111: syntax error, unexpected keyword_ensure, expecting keyword_end
+          ensure
+                ^):
+  
+app/views/contacts/new.html.erb:111: syntax error, unexpected keyword_ensure, expecting keyword_end
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:37:35 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 13ms
+
+
+  
+SyntaxError (/Users/ruizhi/Documents/HexagonFab/website/hexagonfab_V0/app/views/contacts/new.html.erb:111: syntax error, unexpected keyword_ensure, expecting keyword_end
+          ensure
+                ^):
+  
+app/views/contacts/new.html.erb:111: syntax error, unexpected keyword_ensure, expecting keyword_end
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:37:42 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 15ms
+
+
+  
+SyntaxError (/Users/ruizhi/Documents/HexagonFab/website/hexagonfab_V0/app/views/contacts/new.html.erb:111: syntax error, unexpected keyword_ensure, expecting keyword_end
+          ensure
+                ^):
+  
+app/views/contacts/new.html.erb:111: syntax error, unexpected keyword_ensure, expecting keyword_end
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 11:37:56 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 14ms
+
+
+  
+SyntaxError (/Users/ruizhi/Documents/HexagonFab/website/hexagonfab_V0/app/views/contacts/new.html.erb:111: syntax error, unexpected keyword_ensure, expecting keyword_end
+          ensure
+                ^):
+  
+app/views/contacts/new.html.erb:111: syntax error, unexpected keyword_ensure, expecting keyword_end
+Started GET "/contacts/new" for 127.0.0.1 at 2018-01-04 11:38:16 +0100
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 13ms
+
+
+  
+SyntaxError (/Users/ruizhi/Documents/HexagonFab/website/hexagonfab_V0/app/views/contacts/new.html.erb:111: syntax error, unexpected keyword_ensure, expecting keyword_end
+          ensure
+                ^):
+  
+app/views/contacts/new.html.erb:111: syntax error, unexpected keyword_ensure, expecting keyword_end
+Started GET "/contacts/new" for 127.0.0.1 at 2018-01-04 11:38:57 +0100
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.8ms)
+  Rendered shared/_navbar.html.erb (1.9ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 35ms (Views: 30.1ms)
+
+
+Started GET "/contacts/new" for 127.0.0.1 at 2018-01-04 11:39:08 +0100
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 25ms
+
+
+  
+SyntaxError (/Users/ruizhi/Documents/HexagonFab/website/hexagonfab_V0/app/views/contacts/new.html.erb:99: syntax error, unexpected keyword_ensure, expecting keyword_end
+          ensure
+                ^):
+  
+app/views/contacts/new.html.erb:99: syntax error, unexpected keyword_ensure, expecting keyword_end
+Started GET "/contacts/new" for 127.0.0.1 at 2018-01-04 11:39:20 +0100
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (1.2ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 46ms (Views: 38.2ms)
+
+
+Started GET "/contacts/new" for 127.0.0.1 at 2018-01-04 11:39:29 +0100
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.6ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 32ms (Views: 28.3ms)
+
+
+Started GET "/contacts/new" for 127.0.0.1 at 2018-01-04 11:39:44 +0100
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 13ms
+
+
+  
+SyntaxError (/Users/ruizhi/Documents/HexagonFab/website/hexagonfab_V0/app/views/contacts/new.html.erb:105: syntax error, unexpected keyword_ensure, expecting keyword_end
+          ensure
+                ^):
+  
+app/views/contacts/new.html.erb:105: syntax error, unexpected keyword_ensure, expecting keyword_end
+Started GET "/contacts/new" for 127.0.0.1 at 2018-01-04 11:42:30 +0100
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 14ms
+
+
+  
+SyntaxError (/Users/ruizhi/Documents/HexagonFab/website/hexagonfab_V0/app/views/contacts/new.html.erb:91: syntax error, unexpected keyword_end
+ze;@output_buffer.append=( end );@output_buffer.safe_append=
+                              ^
+/Users/ruizhi/Documents/HexagonFab/website/hexagonfab_V0/app/views/contacts/new.html.erb:113: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/Users/ruizhi/Documents/HexagonFab/website/hexagonfab_V0/app/views/contacts/new.html.erb:115: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/contacts/new.html.erb:91: syntax error, unexpected keyword_end
+app/views/contacts/new.html.erb:113: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/contacts/new.html.erb:115: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/contacts/new" for 127.0.0.1 at 2018-01-04 11:42:51 +0100
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 19ms
+
+
+  
+SyntaxError (/Users/ruizhi/Documents/HexagonFab/website/hexagonfab_V0/app/views/contacts/new.html.erb:91: syntax error, unexpected keyword_end
+ze;@output_buffer.append=( end );@output_buffer.safe_append=
+                              ^
+/Users/ruizhi/Documents/HexagonFab/website/hexagonfab_V0/app/views/contacts/new.html.erb:113: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/Users/ruizhi/Documents/HexagonFab/website/hexagonfab_V0/app/views/contacts/new.html.erb:115: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/contacts/new.html.erb:91: syntax error, unexpected keyword_end
+app/views/contacts/new.html.erb:113: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/contacts/new.html.erb:115: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/contacts/new" for 127.0.0.1 at 2018-01-04 11:42:59 +0100
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (9.3ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 61ms (Views: 53.5ms)
+
+
+Started GET "/contacts/new" for 127.0.0.1 at 2018-01-04 11:44:40 +0100
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (6.9ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 41ms (Views: 36.7ms)
+
+
+Started GET "/contacts/new" for 127.0.0.1 at 2018-01-04 11:45:05 +0100
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (7.1ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 42ms (Views: 35.8ms)
+
+
+Started GET "/contacts/new" for 127.0.0.1 at 2018-01-04 11:45:17 +0100
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (6.6ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 43ms (Views: 35.7ms)
+
+
+Started GET "/contacts/new" for 127.0.0.1 at 2018-01-04 11:45:37 +0100
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (9.2ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 54ms (Views: 46.0ms)
+
+
+Started GET "/contacts/new" for 127.0.0.1 at 2018-01-04 11:45:46 +0100
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (9.2ms)
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 53ms (Views: 44.8ms)
+
+
+Started GET "/contacts/new" for 127.0.0.1 at 2018-01-04 11:45:57 +0100
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (7.8ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 41ms (Views: 35.9ms)
+
+
+Started GET "/contacts/new" for 127.0.0.1 at 2018-01-04 11:46:05 +0100
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (7.7ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 40ms (Views: 35.9ms)
+
+
+Started GET "/contacts/new" for 127.0.0.1 at 2018-01-04 11:46:19 +0100
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (7.2ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 51ms (Views: 42.7ms)
+
+
+Started GET "/contacts/new" for 127.0.0.1 at 2018-01-04 11:47:11 +0100
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (6.3ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 440ms (Views: 30.5ms)
+
+
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 11:47:15 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"k2OFCNuqJ0eesQPd27R4uvpAQJHc+60dZE/cuNlUANDlZ2Q2SAmO2rrip4m7cDmjuIPP8tc56HLW7qqow2j7fw==", "contact"=>{"name"=>"", "email"=>"", "message"=>"", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (7.4ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 38ms (Views: 35.9ms)
+
+
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 11:47:55 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"k2OFCNuqJ0eesQPd27R4uvpAQJHc+60dZE/cuNlUANDlZ2Q2SAmO2rrip4m7cDmjuIPP8tc56HLW7qqow2j7fw==", "contact"=>{"name"=>"", "email"=>"", "message"=>"", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (7.3ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 37ms (Views: 36.0ms)
+
+
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 11:48:11 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"k2OFCNuqJ0eesQPd27R4uvpAQJHc+60dZE/cuNlUANDlZ2Q2SAmO2rrip4m7cDmjuIPP8tc56HLW7qqow2j7fw==", "contact"=>{"name"=>"", "email"=>"", "message"=>"", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (6.6ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 36ms (Views: 34.9ms)
+
+
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 11:48:26 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"k2OFCNuqJ0eesQPd27R4uvpAQJHc+60dZE/cuNlUANDlZ2Q2SAmO2rrip4m7cDmjuIPP8tc56HLW7qqow2j7fw==", "contact"=>{"name"=>"", "email"=>"", "message"=>"", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (6.5ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 38ms (Views: 36.2ms)
+
+
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 11:49:01 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"k2OFCNuqJ0eesQPd27R4uvpAQJHc+60dZE/cuNlUANDlZ2Q2SAmO2rrip4m7cDmjuIPP8tc56HLW7qqow2j7fw==", "contact"=>{"name"=>"", "email"=>"", "message"=>"", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (8.5ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 44ms (Views: 41.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-04 11:55:21 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (12.1ms)
+  Rendered shared/_navbar.html.erb (5.4ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 111ms (Views: 105.5ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-01-04 11:55:22 +0100
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (3.5ms)
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered shared/_footer.html.erb (1.1ms)
+Completed 200 OK in 45ms (Views: 40.3ms)
+
+
+Started GET "/news?locale=en" for 127.0.0.1 at 2018-01-04 11:55:24 +0100
+Processing by StaticPagesController#news as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (18.3ms)
+  Rendered shared/_navbar.html.erb (2.2ms)
+  Rendered shared/_footer.html.erb (1.2ms)
+Completed 200 OK in 63ms (Views: 58.3ms)
+
+
+Started GET "/about?locale=en" for 127.0.0.1 at 2018-01-04 11:55:25 +0100
+Processing by StaticPagesController#about as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (2.7ms)
+  Rendered shared/_navbar.html.erb (2.1ms)
+  Rendered shared/_footer.html.erb (1.1ms)
+Completed 200 OK in 50ms (Views: 44.8ms)
+
+
+Started GET "/?locale=en" for 127.0.0.1 at 2018-01-04 11:56:02 +0100
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (4.2ms)
+  Rendered shared/_navbar.html.erb (4.3ms)
+  Rendered shared/_footer.html.erb (1.1ms)
+Completed 200 OK in 42ms (Views: 38.1ms)
+
+
+Started GET "/?locale=en" for 127.0.0.1 at 2018-01-04 11:56:37 +0100
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (3.2ms)
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 2689ms (Views: 2683.8ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-01-04 11:56:42 +0100
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (2.5ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 34ms (Views: 30.6ms)
+
+
+Started GET "/about?locale=en" for 127.0.0.1 at 2018-01-04 11:57:04 +0100
+Processing by StaticPagesController#about as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (3.1ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 41ms (Views: 37.3ms)
+
+
+Started GET "/about?locale=en" for 127.0.0.1 at 2018-01-04 11:57:54 +0100
+Processing by StaticPagesController#about as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (2.6ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (1.6ms)
+Completed 200 OK in 43ms (Views: 39.4ms)
+
+
+Started GET "/?locale=en" for 127.0.0.1 at 2018-01-04 11:58:06 +0100
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (3.3ms)
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (1.6ms)
+Completed 200 OK in 42ms (Views: 37.6ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-01-04 11:58:11 +0100
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (3.2ms)
+  Rendered shared/_navbar.html.erb (2.8ms)
+  Rendered shared/_footer.html.erb (1.4ms)
+Completed 200 OK in 62ms (Views: 57.7ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-01-04 11:58:35 +0100
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (5.0ms)
+  Rendered shared/_navbar.html.erb (4.1ms)
+  Rendered shared/_footer.html.erb (2.1ms)
+Completed 200 OK in 62ms (Views: 57.1ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-01-04 11:58:44 +0100
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (6.5ms)
+  Rendered shared/_navbar.html.erb (2.2ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 63ms (Views: 57.2ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-01-04 11:58:52 +0100
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (2.6ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 35ms (Views: 30.0ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-01-04 11:59:00 +0100
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (3.3ms)
+  Rendered shared/_navbar.html.erb (2.8ms)
+  Rendered shared/_footer.html.erb (1.3ms)
+Completed 200 OK in 48ms (Views: 43.4ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-01-04 12:00:42 +0100
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (3.2ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 33ms (Views: 30.1ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-01-04 12:00:44 +0100
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (3.9ms)
+  Rendered shared/_navbar.html.erb (3.1ms)
+  Rendered shared/_footer.html.erb (1.2ms)
+Completed 200 OK in 41ms (Views: 37.3ms)
+
+
+Started GET "/?locale=en" for 127.0.0.1 at 2018-01-04 12:00:45 +0100
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.9ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 34ms (Views: 30.0ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-01-04 12:00:52 +0100
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (2.9ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 35ms (Views: 31.6ms)
+
+
+Started GET "/news?locale=en" for 127.0.0.1 at 2018-01-04 12:00:57 +0100
+Processing by StaticPagesController#news as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (2.5ms)
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered shared/_footer.html.erb (1.2ms)
+Completed 200 OK in 48ms (Views: 44.4ms)
+
+
+Started GET "/about?locale=en" for 127.0.0.1 at 2018-01-04 12:00:58 +0100
+Processing by StaticPagesController#about as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (2.3ms)
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered shared/_footer.html.erb (1.7ms)
+Completed 200 OK in 40ms (Views: 35.7ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-01-04 12:01:39 +0100
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (2.9ms)
+  Rendered shared/_navbar.html.erb (2.6ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 48ms (Views: 40.3ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-01-04 12:01:40 +0100
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (3.0ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (1.4ms)
+Completed 200 OK in 36ms (Views: 32.1ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-01-04 12:01:42 +0100
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (3.2ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 35ms (Views: 31.8ms)
+
+
+Started GET "/?locale=en" for 127.0.0.1 at 2018-01-04 12:03:28 +0100
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (3.7ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (1.1ms)
+Completed 200 OK in 38ms (Views: 34.5ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 12:04:17 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (8.3ms)
+  Rendered shared/_navbar.html.erb (2.0ms)
+  Rendered shared/_footer.html.erb (1.1ms)
+Completed 200 OK in 43ms (Views: 38.9ms)
+
+
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 12:04:25 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7GE4jNCB6hn8d2XneI1eT+76fl3H75UFgWmSTv1VH0GaZdmyQyJDhNgkwbMYSR9WrDnxPswt0GozyORe52nk7g==", "contact"=>{"name"=>"", "email"=>"", "message"=>"", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (7.8ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (1.9ms)
+Completed 200 OK in 41ms (Views: 39.3ms)
+
+
+Started GET "/?locale=en" for 127.0.0.1 at 2018-01-04 12:04:44 +0100
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (3.1ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 36ms (Views: 32.8ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-01-04 12:04:49 +0100
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (3.2ms)
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 33ms (Views: 30.5ms)
+
+
+Started GET "/news?locale=en" for 127.0.0.1 at 2018-01-04 12:04:50 +0100
+Processing by StaticPagesController#news as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (2.8ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 35ms (Views: 31.4ms)
+
+
+Started GET "/about?locale=en" for 127.0.0.1 at 2018-01-04 12:04:51 +0100
+Processing by StaticPagesController#about as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (2.1ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (1.2ms)
+Completed 200 OK in 36ms (Views: 32.5ms)
+
+
+Started GET "/news?locale=en" for 127.0.0.1 at 2018-01-04 12:04:51 +0100
+Processing by StaticPagesController#news as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (3.2ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 35ms (Views: 31.9ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-01-04 12:04:52 +0100
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (3.0ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (1.6ms)
+Completed 200 OK in 38ms (Views: 32.6ms)
+
+
+Started GET "/news?locale=en" for 127.0.0.1 at 2018-01-04 12:04:53 +0100
+Processing by StaticPagesController#news as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/news.html.erb within layouts/application
+  Rendered static_pages/news.html.erb within layouts/application (2.5ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (1.1ms)
+Completed 200 OK in 35ms (Views: 31.1ms)
+
+
+Started GET "/about?locale=en" for 127.0.0.1 at 2018-01-04 12:04:53 +0100
+Processing by StaticPagesController#about as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (2.6ms)
+  Rendered shared/_navbar.html.erb (2.2ms)
+  Rendered shared/_footer.html.erb (1.1ms)
+Completed 200 OK in 40ms (Views: 36.4ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 12:04:54 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (7.9ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 40ms (Views: 36.5ms)
+
+
+Started GET "/?locale=en" for 127.0.0.1 at 2018-01-04 12:05:02 +0100
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (3.3ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 35ms (Views: 31.7ms)
+
+

@@ -6,9 +6,6 @@
 // The order of the class definition defines the base and the other class. For
 // example .btn2.btn uses btn2 as the base class and takes all the non-available
 // definitions from btn
-
-.hidden { display: none; }
-
 body {
   color: #565a5c;
   background-color: black;
@@ -75,8 +72,9 @@ body {
   padding-right:0px;
 }
 
-#correct_answer {
-  display:none;
+.contact-form{
+  width: 60%;
+  margin: auto;
 }
 
 // ------------------------------------------------------------------------
@@ -125,13 +123,23 @@ footer small {
   border-radius: 10px;;
 }
 
+.list-item-top {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #82888a;
+  border-top: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+}
+
 // ------------------------------------------------------------------------
 // Button
 .btn-primary.btn {
   border: 1px solid black;
   border-radius: 10px;
   font-weight: bold;
-  background-color: #fffff;
+  background-color: #788cb6;
   color: #fff;
   padding: 10px 25px 10px 25px;
 }
@@ -143,8 +151,12 @@ footer small {
 }
 
 .btn-default.btn {
-  border-radius: 5px;
-  padding: 1px 1px 1px 1px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-weight: bold;
+  background-color: #788cb6;
+  color: #fff;
+  padding: 10px 25px 10px 25px;
 }
 
 .btn-language.btn{
@@ -179,7 +191,6 @@ footer small {
   padding-right: 10px;
   border-left: 0.5px solid lightgrey;
 }
-
 
 // ------------------------------------------------------------------------
 // Table
