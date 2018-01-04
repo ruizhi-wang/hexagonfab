@@ -21282,3 +21282,2342 @@ Processing by StaticPagesController#home as HTML
 Completed 200 OK in 35ms (Views: 31.7ms)
 
 
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 12:14:21 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (116.8ms)
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (1.3ms)
+Completed 200 OK in 2745ms (Views: 756.5ms)
+
+
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 12:14:33 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"d3R6J3xcC3KRsB4Rrex10IVCG65z8kdI7WVYVC5Hq5gBcJsZ7/+i77XjukXNKDTJx4GUzXgwAidfxC5ENHtQNw==", "contact"=>{"name"=>"Ruizhi Wang", "email"=>"ruizhiwang90@gmail.com", "message"=>"Test message", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb (1.5ms)
+MailForm::Notifier#contact: processed outbound mail in 484.8ms
+Sent mail to your_email@example.org (4231.9ms)
+Date: Thu, 04 Jan 2018 12:14:34 +0100
+From: Ruizhi Wang <ruizhiwang90@gmail.com>
+To: your_email@example.org
+Message-ID: <5a4e0c9ad71c0_49023fd53e525adc395a0@Ruizhis-MacBook-Pro.local.mail>
+Subject: My Contact Form
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">My Contact Form</h4>
+
+
+  <p><b>Name:</b>
+  Ruizhi Wang</p>
+
+  <p><b>Email:</b>
+  ruizhiwang90@gmail.com</p>
+
+  <p><b>Message:</b>
+  Test message</p>
+
+
+  Rendering contacts/create.html.haml within layouts/application
+  Rendered contacts/create.html.haml within layouts/application (8.1ms)
+  Rendered shared/_navbar.html.erb (2.7ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 5242ms (Views: 37.1ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-01-04 12:34:36 +0100
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (2.6ms)
+  Rendered shared/_navbar.html.erb (1.9ms)
+  Rendered shared/_footer.html.erb (1.2ms)
+Completed 200 OK in 40ms (Views: 35.6ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 12:34:37 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (7.3ms)
+  Rendered shared/_navbar.html.erb (1.9ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 45ms (Views: 39.5ms)
+
+
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 12:34:49 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6+wi/UrGGZ74iNsCIdA+MoZeou8CvBIVOpLKgjbBO4id6MPD2WWwA9zbf1ZBFH8rxJ0tjAl+V3qIM7ySLP3AJw==", "contact"=>{"name"=>"Ruizhi Wang", "email"=>"ruizhiwang90@gmail.com", "message"=>"Test", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb (1.0ms)
+MailForm::Notifier#contact: processed outbound mail in 78.9ms
+Sent mail to your_email@example.org (4404.3ms)
+Date: Thu, 04 Jan 2018 12:34:49 +0100
+From: Ruizhi Wang <ruizhiwang90@gmail.com>
+To: your_email@example.org
+Message-ID: <5a4e1159aa1f9_49023fd53e525c5839629@Ruizhis-MacBook-Pro.local.mail>
+Subject: My Contact Form
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">My Contact Form</h4>
+
+
+  <p><b>Name:</b>
+  Ruizhi Wang</p>
+
+  <p><b>Email:</b>
+  ruizhiwang90@gmail.com</p>
+
+  <p><b>Message:</b>
+  Test</p>
+
+
+UserMailer#request_mail: processed outbound mail in 26.9ms
+Completed 500 Internal Server Error in 4520ms
+
+
+  
+ActionView::MissingTemplate (Missing template user_mailer/request_mail with "mailer". Searched in:
+  * "user_mailer"
+):
+  
+app/mailers/user_mailer.rb:6:in `request_mail'
+app/controllers/contacts_controller.rb:11:in `create'
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 12:36:10 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6+wi/UrGGZ74iNsCIdA+MoZeou8CvBIVOpLKgjbBO4id6MPD2WWwA9zbf1ZBFH8rxJ0tjAl+V3qIM7ySLP3AJw==", "contact"=>{"name"=>"Ruizhi Wang", "email"=>"ruizhiwang90@gmail.com", "message"=>"Test", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb (1.2ms)
+MailForm::Notifier#contact: processed outbound mail in 68.6ms
+Sent mail to your_email@example.org (4578.8ms)
+Date: Thu, 04 Jan 2018 12:36:10 +0100
+From: Ruizhi Wang <ruizhiwang90@gmail.com>
+To: your_email@example.org
+Message-ID: <5a4e11aa7f58f_49023fd53e5259c43971a@Ruizhis-MacBook-Pro.local.mail>
+Subject: My Contact Form
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">My Contact Form</h4>
+
+
+  <p><b>Name:</b>
+  Ruizhi Wang</p>
+
+  <p><b>Email:</b>
+  ruizhiwang90@gmail.com</p>
+
+  <p><b>Message:</b>
+  Test</p>
+
+
+UserMailer#request_mail: processed outbound mail in 22.8ms
+Completed 500 Internal Server Error in 4679ms
+
+
+  
+ActionView::MissingTemplate (Missing template user_mailer/request_mail with "mailer". Searched in:
+  * "user_mailer"
+):
+  
+app/mailers/user_mailer.rb:8:in `request_mail'
+app/controllers/contacts_controller.rb:11:in `create'
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 12:36:39 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6+wi/UrGGZ74iNsCIdA+MoZeou8CvBIVOpLKgjbBO4id6MPD2WWwA9zbf1ZBFH8rxJ0tjAl+V3qIM7ySLP3AJw==", "contact"=>{"name"=>"Ruizhi Wang", "email"=>"ruizhiwang90@gmail.com", "message"=>"Test", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb (1.2ms)
+MailForm::Notifier#contact: processed outbound mail in 68.4ms
+Sent mail to your_email@example.org (4173.1ms)
+Date: Thu, 04 Jan 2018 12:36:39 +0100
+From: Ruizhi Wang <ruizhiwang90@gmail.com>
+To: your_email@example.org
+Message-ID: <5a4e11c747505_49023fd53e525dac39834@Ruizhis-MacBook-Pro.local.mail>
+Subject: My Contact Form
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">My Contact Form</h4>
+
+
+  <p><b>Name:</b>
+  Ruizhi Wang</p>
+
+  <p><b>Email:</b>
+  ruizhiwang90@gmail.com</p>
+
+  <p><b>Message:</b>
+  Test</p>
+
+
+UserMailer#request_mail: processed outbound mail in 22.6ms
+Completed 500 Internal Server Error in 4274ms
+
+
+  
+ActionView::MissingTemplate (Missing template user_mailer/request_mail with "mailer". Searched in:
+  * "user_mailer"
+):
+  
+app/mailers/user_mailer.rb:8:in `request_mail'
+app/controllers/contacts_controller.rb:11:in `create'
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 12:36:58 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6+wi/UrGGZ74iNsCIdA+MoZeou8CvBIVOpLKgjbBO4id6MPD2WWwA9zbf1ZBFH8rxJ0tjAl+V3qIM7ySLP3AJw==", "contact"=>{"name"=>"Ruizhi Wang", "email"=>"ruizhiwang90@gmail.com", "message"=>"Test", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb (2.1ms)
+MailForm::Notifier#contact: processed outbound mail in 69.7ms
+Sent mail to your_email@example.org (4518.9ms)
+Date: Thu, 04 Jan 2018 12:36:58 +0100
+From: Ruizhi Wang <ruizhiwang90@gmail.com>
+To: your_email@example.org
+Message-ID: <5a4e11daadbde_49023fd53e525c58399c0@Ruizhis-MacBook-Pro.local.mail>
+Subject: My Contact Form
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">My Contact Form</h4>
+
+
+  <p><b>Name:</b>
+  Ruizhi Wang</p>
+
+  <p><b>Email:</b>
+  ruizhiwang90@gmail.com</p>
+
+  <p><b>Message:</b>
+  Test</p>
+
+
+UserMailer#request_mail: processed outbound mail in 23.3ms
+Completed 500 Internal Server Error in 4621ms
+
+
+  
+ActionView::MissingTemplate (Missing template user_mailer/request_mail with "mailer". Searched in:
+  * "user_mailer"
+):
+  
+app/mailers/user_mailer.rb:6:in `request_mail'
+app/controllers/contacts_controller.rb:11:in `create'
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 12:38:41 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6+wi/UrGGZ74iNsCIdA+MoZeou8CvBIVOpLKgjbBO4id6MPD2WWwA9zbf1ZBFH8rxJ0tjAl+V3qIM7ySLP3AJw==", "contact"=>{"name"=>"Ruizhi Wang", "email"=>"ruizhiwang90@gmail.com", "message"=>"Test", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb (1.1ms)
+MailForm::Notifier#contact: processed outbound mail in 71.5ms
+Sent mail to your_email@example.org (4298.9ms)
+Date: Thu, 04 Jan 2018 12:38:41 +0100
+From: Ruizhi Wang <ruizhiwang90@gmail.com>
+To: your_email@example.org
+Message-ID: <5a4e1241e7035_49023fd53e5259c44007c@Ruizhis-MacBook-Pro.local.mail>
+Subject: My Contact Form
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">My Contact Form</h4>
+
+
+  <p><b>Name:</b>
+  Ruizhi Wang</p>
+
+  <p><b>Email:</b>
+  ruizhiwang90@gmail.com</p>
+
+  <p><b>Message:</b>
+  Test</p>
+
+
+UserMailer#request_mail: processed outbound mail in 25.5ms
+Completed 500 Internal Server Error in 4399ms
+
+
+  
+ActionView::MissingTemplate (Missing template user_mailer/request_mail with "mailer". Searched in:
+  * "user_mailer"
+):
+  
+app/mailers/user_mailer.rb:6:in `request_mail'
+app/controllers/contacts_controller.rb:11:in `create'
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 12:39:53 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6+wi/UrGGZ74iNsCIdA+MoZeou8CvBIVOpLKgjbBO4id6MPD2WWwA9zbf1ZBFH8rxJ0tjAl+V3qIM7ySLP3AJw==", "contact"=>{"name"=>"Ruizhi Wang", "email"=>"ruizhiwang90@gmail.com", "message"=>"Test", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb (1.2ms)
+MailForm::Notifier#contact: processed outbound mail in 70.3ms
+Sent mail to your_email@example.org (4388.0ms)
+Date: Thu, 04 Jan 2018 12:39:53 +0100
+From: Ruizhi Wang <ruizhiwang90@gmail.com>
+To: your_email@example.org
+Message-ID: <5a4e12893874f_49023fd53e525dac4014d@Ruizhis-MacBook-Pro.local.mail>
+Subject: My Contact Form
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">My Contact Form</h4>
+
+
+  <p><b>Name:</b>
+  Ruizhi Wang</p>
+
+  <p><b>Email:</b>
+  ruizhiwang90@gmail.com</p>
+
+  <p><b>Message:</b>
+  Test</p>
+
+
+UserMailer#request_mail: processed outbound mail in 30.0ms
+Completed 500 Internal Server Error in 4490ms
+
+
+  
+ActionView::MissingTemplate (Missing template user_mailer/request_mail with "mailer". Searched in:
+  * "user_mailer"
+):
+  
+app/mailers/user_mailer.rb:6:in `request_mail'
+app/controllers/contacts_controller.rb:11:in `create'
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 12:40:39 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6+wi/UrGGZ74iNsCIdA+MoZeou8CvBIVOpLKgjbBO4id6MPD2WWwA9zbf1ZBFH8rxJ0tjAl+V3qIM7ySLP3AJw==", "contact"=>{"name"=>"Ruizhi Wang", "email"=>"ruizhiwang90@gmail.com", "message"=>"Test", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb (1.3ms)
+MailForm::Notifier#contact: processed outbound mail in 69.9ms
+Sent mail to your_email@example.org (3754.8ms)
+Date: Thu, 04 Jan 2018 12:40:39 +0100
+From: Ruizhi Wang <ruizhiwang90@gmail.com>
+To: your_email@example.org
+Message-ID: <5a4e12b71ed85_49023fd53e525adc4022@Ruizhis-MacBook-Pro.local.mail>
+Subject: My Contact Form
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">My Contact Form</h4>
+
+
+  <p><b>Name:</b>
+  Ruizhi Wang</p>
+
+  <p><b>Email:</b>
+  ruizhiwang90@gmail.com</p>
+
+  <p><b>Message:</b>
+  Test</p>
+
+
+  Rendering user_mailer/request_mail.html.erb
+  Rendered user_mailer/request_mail.html.erb (0.4ms)
+  Rendering user_mailer/request_mail.text.erb
+  Rendered user_mailer/request_mail.text.erb (0.2ms)
+UserMailer#request_mail: processed outbound mail in 41.9ms
+Sent mail to rw520@cam.ac.uk (4060.4ms)
+Date: Thu, 04 Jan 2018 12:40:42 +0100
+From: request@hexagonfab.com
+To: rw520@cam.ac.uk
+Message-ID: <5a4e12bae1a81_49023fd53e525adc4044@Ruizhis-MacBook-Pro.local.mail>
+Subject: Ruizhi Wang
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a4e12bae126a_49023fd53e525adc403d";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a4e12bae126a_49023fd53e525adc403d
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a4e12bae126a_49023fd53e525adc403d
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    
+  </body>
+</html>
+
+----==_mimepart_5a4e12bae126a_49023fd53e525adc403d--
+
+  Rendering contacts/create.html.haml within layouts/application
+  Rendered contacts/create.html.haml within layouts/application (1.8ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 7967ms (Views: 30.1ms)
+
+
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 12:42:12 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6+wi/UrGGZ74iNsCIdA+MoZeou8CvBIVOpLKgjbBO4id6MPD2WWwA9zbf1ZBFH8rxJ0tjAl+V3qIM7ySLP3AJw==", "contact"=>{"name"=>"Ruizhi Wang", "email"=>"ruizhiwang90@gmail.com", "message"=>"Test", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb (1.2ms)
+MailForm::Notifier#contact: processed outbound mail in 76.3ms
+Sent mail to your_email@example.org (4376.1ms)
+Date: Thu, 04 Jan 2018 12:42:12 +0100
+From: Ruizhi Wang <ruizhiwang90@gmail.com>
+To: your_email@example.org
+Message-ID: <5a4e131463446_49023fd53e525f3c40528@Ruizhis-MacBook-Pro.local.mail>
+Subject: My Contact Form
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">My Contact Form</h4>
+
+
+  <p><b>Name:</b>
+  Ruizhi Wang</p>
+
+  <p><b>Email:</b>
+  ruizhiwang90@gmail.com</p>
+
+  <p><b>Message:</b>
+  Test</p>
+
+
+  Rendering user_mailer/request_mail.html.erb
+  Rendered user_mailer/request_mail.html.erb (0.3ms)
+  Rendering user_mailer/request_mail.text.erb
+  Rendered user_mailer/request_mail.text.erb (0.4ms)
+UserMailer#request_mail: processed outbound mail in 42.7ms
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 12:42:18 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (6.8ms)
+  Rendered shared/_navbar.html.erb (2.2ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 39ms (Views: 35.8ms)
+
+
+Sent mail to rw520@cam.ac.uk (4052.0ms)
+Date: Thu, 04 Jan 2018 12:42:16 +0100
+From: request@hexagonfab.com
+To: rw520@cam.ac.uk
+Message-ID: <5a4e1318c9f21_49023fd53e525f3c407a8@Ruizhis-MacBook-Pro.local.mail>
+Subject: Ruizhi Wang
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a4e1318c945c_49023fd53e525f3c40669";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a4e1318c945c_49023fd53e525f3c40669
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a4e1318c945c_49023fd53e525f3c40669
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    
+  </body>
+</html>
+
+----==_mimepart_5a4e1318c945c_49023fd53e525f3c40669--
+
+  Rendering contacts/create.html.haml within layouts/application
+  Rendered contacts/create.html.haml within layouts/application (1.8ms)
+  Rendered shared/_navbar.html.erb (1.0ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 8588ms (Views: 30.8ms)
+
+
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 12:44:11 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PYed8UfNm1qwAOco2nKed7P/ZmbA4v8on95saM4zP7pLg3zP1G4yx5RTQ3y6tt9u8TzpBcsgukctfxp41A/EFQ==", "contact"=>{"name"=>"Ruizhi Wang", "email"=>"ruizhiwang90@gmail.com", "message"=>"Test Test", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb (1.7ms)
+MailForm::Notifier#contact: processed outbound mail in 80.4ms
+Sent mail to your_email@example.org (3543.1ms)
+Date: Thu, 04 Jan 2018 12:44:11 +0100
+From: Ruizhi Wang <ruizhiwang90@gmail.com>
+To: your_email@example.org
+Message-ID: <5a4e138b32bca_49023fd53e5259c440890@Ruizhis-MacBook-Pro.local.mail>
+Subject: My Contact Form
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">My Contact Form</h4>
+
+
+  <p><b>Name:</b>
+  Ruizhi Wang</p>
+
+  <p><b>Email:</b>
+  ruizhiwang90@gmail.com</p>
+
+  <p><b>Message:</b>
+  Test Test</p>
+
+
+  Rendering user_mailer/request_mail.html.erb
+  Rendered user_mailer/request_mail.html.erb (0.3ms)
+  Rendering user_mailer/request_mail.text.erb
+  Rendered user_mailer/request_mail.text.erb (0.3ms)
+UserMailer#request_mail: processed outbound mail in 46.2ms
+Sent mail to rw520@cam.ac.uk (3641.1ms)
+Date: Thu, 04 Jan 2018 12:44:14 +0100
+From: request@hexagonfab.com
+To: rw520@cam.ac.uk
+Message-ID: <5a4e138ec2f9a_49023fd53e5259c4410f4@Ruizhis-MacBook-Pro.local.mail>
+Subject: Ruizhi Wang
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a4e138ec2711_49023fd53e5259c440922";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a4e138ec2711_49023fd53e5259c440922
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a4e138ec2711_49023fd53e5259c440922
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    
+  </body>
+</html>
+
+----==_mimepart_5a4e138ec2711_49023fd53e5259c440922--
+
+  Rendering contacts/create.html.haml within layouts/application
+  Rendered contacts/create.html.haml within layouts/application (3.2ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 7362ms (Views: 39.0ms)
+
+
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 12:46:31 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PYed8UfNm1qwAOco2nKed7P/ZmbA4v8on95saM4zP7pLg3zP1G4yx5RTQ3y6tt9u8TzpBcsgukctfxp41A/EFQ==", "contact"=>{"name"=>"Ruizhi Wang", "email"=>"ruizhiwang90@gmail.com", "message"=>"Test Test", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb (2.1ms)
+MailForm::Notifier#contact: processed outbound mail in 70.0ms
+Sent mail to your_email@example.org (3725.5ms)
+Date: Thu, 04 Jan 2018 12:46:31 +0100
+From: Ruizhi Wang <ruizhiwang90@gmail.com>
+To: your_email@example.org
+Message-ID: <5a4e1417ca482_49023fd53e525c5841127@Ruizhis-MacBook-Pro.local.mail>
+Subject: My Contact Form
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">My Contact Form</h4>
+
+
+  <p><b>Name:</b>
+  Ruizhi Wang</p>
+
+  <p><b>Email:</b>
+  ruizhiwang90@gmail.com</p>
+
+  <p><b>Message:</b>
+  Test Test</p>
+
+
+  Rendering user_mailer/request_mail.html.erb
+  Rendered user_mailer/request_mail.html.erb (0.3ms)
+  Rendering user_mailer/request_mail.text.erb
+  Rendered user_mailer/request_mail.text.erb (0.2ms)
+UserMailer#request_mail: processed outbound mail in 36.7ms
+Sent mail to rw520@cam.ac.uk (15626.4ms)
+Date: Thu, 04 Jan 2018 12:46:35 +0100
+From: request@hexagonfab.com
+To: rw520@cam.ac.uk
+Message-ID: <5a4e141b91048_49023fd53e525c58413ab@Ruizhis-MacBook-Pro.local.mail>
+Subject: Ruizhi Wang
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a4e141b90774_49023fd53e525c5841210";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a4e141b90774_49023fd53e525c5841210
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a4e141b90774_49023fd53e525c5841210
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    
+  </body>
+</html>
+
+----==_mimepart_5a4e141b90774_49023fd53e525c5841210--
+
+  Rendering contacts/create.html.haml within layouts/application
+  Rendered contacts/create.html.haml within layouts/application (1.7ms)
+  Rendered shared/_navbar.html.erb (2.2ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 19511ms (Views: 40.9ms)
+
+
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 12:48:37 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PYed8UfNm1qwAOco2nKed7P/ZmbA4v8on95saM4zP7pLg3zP1G4yx5RTQ3y6tt9u8TzpBcsgukctfxp41A/EFQ==", "contact"=>{"name"=>"Ruizhi Wang", "email"=>"ruizhiwang90@gmail.com", "message"=>"Test Test", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb (1.8ms)
+MailForm::Notifier#contact: processed outbound mail in 81.4ms
+Sent mail to your_email@example.org (3645.3ms)
+Date: Thu, 04 Jan 2018 12:48:37 +0100
+From: Ruizhi Wang <ruizhiwang90@gmail.com>
+To: your_email@example.org
+Message-ID: <5a4e14952489f_49023fd53e525adc41441@Ruizhis-MacBook-Pro.local.mail>
+Subject: My Contact Form
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">My Contact Form</h4>
+
+
+  <p><b>Name:</b>
+  Ruizhi Wang</p>
+
+  <p><b>Email:</b>
+  ruizhiwang90@gmail.com</p>
+
+  <p><b>Message:</b>
+  Test Test</p>
+
+
+  Rendering user_mailer/request_mail.html.erb
+  Rendered user_mailer/request_mail.html.erb (0.4ms)
+  Rendering user_mailer/request_mail.text.erb
+  Rendered user_mailer/request_mail.text.erb (0.4ms)
+UserMailer#request_mail: processed outbound mail in 44.5ms
+Sent mail to rw520@cam.ac.uk (4182.5ms)
+Date: Thu, 04 Jan 2018 12:48:40 +0100
+From: request@hexagonfab.com
+To: rw520@cam.ac.uk
+Message-ID: <5a4e1498cd5d9_49023fd53e525adc416f@Ruizhis-MacBook-Pro.local.mail>
+Subject: Ruizhi Wang
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a4e1498ccbca_49023fd53e525adc415a";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a4e1498ccbca_49023fd53e525adc415a
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a4e1498ccbca_49023fd53e525adc415a
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    
+  </body>
+</html>
+
+----==_mimepart_5a4e1498ccbca_49023fd53e525adc415a--
+
+  Rendering contacts/create.html.erb within layouts/application
+  Rendered contacts/create.html.erb within layouts/application (4.0ms)
+Completed 500 Internal Server Error in 7975ms
+
+
+  
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    1: <div class="container">
+    2:   <h1>Thank you for your message</h1>
+    3: 
+    4:   <%= @request.name %>
+    5: </div>
+  
+app/views/contacts/create.html.erb:4:in `_app_views_contacts_create_html_erb__2253978154280018577_70185146186340'
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 12:49:28 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PYed8UfNm1qwAOco2nKed7P/ZmbA4v8on95saM4zP7pLg3zP1G4yx5RTQ3y6tt9u8TzpBcsgukctfxp41A/EFQ==", "contact"=>{"name"=>"Ruizhi Wang", "email"=>"ruizhiwang90@gmail.com", "message"=>"Test Test", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb (1.2ms)
+MailForm::Notifier#contact: processed outbound mail in 72.3ms
+Sent mail to your_email@example.org (4062.4ms)
+Date: Thu, 04 Jan 2018 12:49:28 +0100
+From: Ruizhi Wang <ruizhiwang90@gmail.com>
+To: your_email@example.org
+Message-ID: <5a4e14c83ac9e_49023fd53e525dac417b5@Ruizhis-MacBook-Pro.local.mail>
+Subject: My Contact Form
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">My Contact Form</h4>
+
+
+  <p><b>Name:</b>
+  Ruizhi Wang</p>
+
+  <p><b>Email:</b>
+  ruizhiwang90@gmail.com</p>
+
+  <p><b>Message:</b>
+  Test Test</p>
+
+
+  Rendering user_mailer/request_mail.html.erb
+  Rendered user_mailer/request_mail.html.erb (0.4ms)
+  Rendering user_mailer/request_mail.text.erb
+  Rendered user_mailer/request_mail.text.erb (0.5ms)
+UserMailer#request_mail: processed outbound mail in 40.4ms
+Sent mail to rw520@cam.ac.uk (4464.6ms)
+Date: Thu, 04 Jan 2018 12:49:32 +0100
+From: request@hexagonfab.com
+To: rw520@cam.ac.uk
+Message-ID: <5a4e14cc54331_49023fd53e525dac41960@Ruizhis-MacBook-Pro.local.mail>
+Subject: Ruizhi Wang
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a4e14cc537f9_49023fd53e525dac41851";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a4e14cc537f9_49023fd53e525dac41851
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a4e14cc537f9_49023fd53e525dac41851
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    
+  </body>
+</html>
+
+----==_mimepart_5a4e14cc537f9_49023fd53e525dac41851--
+
+  Rendering contacts/create.html.erb within layouts/application
+  Rendered contacts/create.html.erb within layouts/application (0.6ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 8682ms (Views: 30.3ms)
+
+
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 12:50:08 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PYed8UfNm1qwAOco2nKed7P/ZmbA4v8on95saM4zP7pLg3zP1G4yx5RTQ3y6tt9u8TzpBcsgukctfxp41A/EFQ==", "contact"=>{"name"=>"Ruizhi Wang", "email"=>"ruizhiwang90@gmail.com", "message"=>"Test Test", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb (1.2ms)
+MailForm::Notifier#contact: processed outbound mail in 74.4ms
+Sent mail to your_email@example.org (4301.2ms)
+Date: Thu, 04 Jan 2018 12:50:08 +0100
+From: Ruizhi Wang <ruizhiwang90@gmail.com>
+To: your_email@example.org
+Message-ID: <5a4e14f06e4a6_49023fd53e525f3c420f9@Ruizhis-MacBook-Pro.local.mail>
+Subject: My Contact Form
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">My Contact Form</h4>
+
+
+  <p><b>Name:</b>
+  Ruizhi Wang</p>
+
+  <p><b>Email:</b>
+  ruizhiwang90@gmail.com</p>
+
+  <p><b>Message:</b>
+  Test Test</p>
+
+
+  Rendering user_mailer/request_mail.html.erb
+  Rendered user_mailer/request_mail.html.erb (0.4ms)
+  Rendering user_mailer/request_mail.text.erb
+  Rendered user_mailer/request_mail.text.erb (0.2ms)
+UserMailer#request_mail: processed outbound mail in 46.0ms
+Sent mail to rw520@cam.ac.uk (4380.6ms)
+Date: Thu, 04 Jan 2018 12:50:12 +0100
+From: request@hexagonfab.com
+To: rw520@cam.ac.uk
+Message-ID: <5a4e14f4c35ee_49023fd53e525f3c422e4@Ruizhis-MacBook-Pro.local.mail>
+Subject: Ruizhi Wang
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a4e14f4c2bb4_49023fd53e525f3c421e4";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a4e14f4c2bb4_49023fd53e525f3c421e4
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a4e14f4c2bb4_49023fd53e525f3c421e4
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    
+  </body>
+</html>
+
+----==_mimepart_5a4e14f4c2bb4_49023fd53e525f3c421e4--
+
+  Rendering contacts/create.html.erb within layouts/application
+  Rendered contacts/create.html.erb within layouts/application (0.6ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (1.2ms)
+Completed 200 OK in 8842ms (Views: 30.7ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 12:50:47 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (9.1ms)
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 43ms (Views: 39.0ms)
+
+
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 12:50:59 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/BL/d2MAKODeQIRo7R3RoSYMqOx/YwXBOfJFAHuDBHmKFh5J8KOBffoTIDyN2ZC4ZM8nj3ShQK6LUzMQYb//1g==", "contact"=>{"name"=>"Ruizhi Wang", "email"=>"ruizhiwang90@gmail.com", "message"=>"Test Test", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb (1.6ms)
+MailForm::Notifier#contact: processed outbound mail in 74.0ms
+Sent mail to your_email@example.org (4509.3ms)
+Date: Thu, 04 Jan 2018 12:50:59 +0100
+From: Ruizhi Wang <ruizhiwang90@gmail.com>
+To: your_email@example.org
+Message-ID: <5a4e152385afe_49023fd53e525dac4235c@Ruizhis-MacBook-Pro.local.mail>
+Subject: My Contact Form
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">My Contact Form</h4>
+
+
+  <p><b>Name:</b>
+  Ruizhi Wang</p>
+
+  <p><b>Email:</b>
+  ruizhiwang90@gmail.com</p>
+
+  <p><b>Message:</b>
+  Test Test</p>
+
+
+  Rendering user_mailer/request_mail.html.erb
+  Rendered user_mailer/request_mail.html.erb (0.7ms)
+  Rendering user_mailer/request_mail.text.erb
+  Rendered user_mailer/request_mail.text.erb (0.3ms)
+UserMailer#request_mail: processed outbound mail in 45.9ms
+Sent mail to rw520@cam.ac.uk (4253.6ms)
+Date: Thu, 04 Jan 2018 12:51:04 +0100
+From: request@hexagonfab.com
+To: rw520@cam.ac.uk
+Message-ID: <5a4e1528198ab_49023fd53e525dac42517@Ruizhis-MacBook-Pro.local.mail>
+Subject: Ruizhi Wang
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a4e152818e0a_49023fd53e525dac42494";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a4e152818e0a_49023fd53e525dac42494
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a4e152818e0a_49023fd53e525dac42494
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    
+  </body>
+</html>
+
+----==_mimepart_5a4e152818e0a_49023fd53e525dac42494--
+
+  Rendering contacts/create.html.erb within layouts/application
+  Rendered contacts/create.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 8923ms (Views: 30.9ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 12:52:31 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (8.9ms)
+  Rendered shared/_navbar.html.erb (2.0ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 47ms (Views: 42.7ms)
+
+
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 12:52:40 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5th0nPEIiawoXYEtRGBRs23Lcvtik/9tLkOqzYtaUWeQ3JWiYqsgMQwOJXkkpBCqLwj9mGlRugKc4tzdkWaqyA==", "contact"=>{"name"=>"Ruizhi Wang", "email"=>"ruizhiwang90@gmail.com", "message"=>"test", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb (1.1ms)
+MailForm::Notifier#contact: processed outbound mail in 74.6ms
+Sent mail to your_email@example.org (4344.4ms)
+Date: Thu, 04 Jan 2018 12:52:40 +0100
+From: Ruizhi Wang <ruizhiwang90@gmail.com>
+To: your_email@example.org
+Message-ID: <5a4e1588a66d4_49023fd53e525adc42640@Ruizhis-MacBook-Pro.local.mail>
+Subject: My Contact Form
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">My Contact Form</h4>
+
+
+  <p><b>Name:</b>
+  Ruizhi Wang</p>
+
+  <p><b>Email:</b>
+  ruizhiwang90@gmail.com</p>
+
+  <p><b>Message:</b>
+  test</p>
+
+
+  Rendering user_mailer/request_mail.html.erb
+  Rendered user_mailer/request_mail.html.erb (0.5ms)
+  Rendering user_mailer/request_mail.text.erb
+  Rendered user_mailer/request_mail.text.erb (0.3ms)
+UserMailer#request_mail: processed outbound mail in 46.2ms
+Sent mail to rw520@cam.ac.uk (4048.5ms)
+Date: Thu, 04 Jan 2018 12:52:45 +0100
+From: request@hexagonfab.com
+To: rw520@cam.ac.uk
+Message-ID: <5a4e158d121c3_49023fd53e525adc428df@Ruizhis-MacBook-Pro.local.mail>
+Subject: Ruizhi Wang
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a4e158d11464_49023fd53e525adc427c3";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a4e158d11464_49023fd53e525adc427c3
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a4e158d11464_49023fd53e525adc427c3
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    
+  </body>
+</html>
+
+----==_mimepart_5a4e158d11464_49023fd53e525adc427c3--
+
+  Rendering contacts/create.html.erb within layouts/application
+  Rendered contacts/create.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 8553ms (Views: 31.5ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 12:53:45 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (13.9ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 44ms (Views: 40.4ms)
+
+
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 12:53:54 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4eYZ9aaUHY9W4a3jrxpj5XiJ0sK7ayFTOCKwkP3PBhGX4vjLNTe0EnKyCbfP3iL8OkpdobCpZDyKg8aA5/P9vg==", "contact"=>{"name"=>"Ruizhi Wang", "email"=>"ruizhiwang90@gmail.com", "message"=>"Test", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb (1.4ms)
+MailForm::Notifier#contact: processed outbound mail in 76.0ms
+Sent mail to your_email@example.org (4431.2ms)
+Date: Thu, 04 Jan 2018 12:53:54 +0100
+From: Ruizhi Wang <ruizhiwang90@gmail.com>
+To: your_email@example.org
+Message-ID: <5a4e15d268769_49023fd53e525c5842991@Ruizhis-MacBook-Pro.local.mail>
+Subject: My Contact Form
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">My Contact Form</h4>
+
+
+  <p><b>Name:</b>
+  Ruizhi Wang</p>
+
+  <p><b>Email:</b>
+  ruizhiwang90@gmail.com</p>
+
+  <p><b>Message:</b>
+  Test</p>
+
+
+  Rendering user_mailer/request_mail.html.erb
+  Rendered user_mailer/request_mail.html.erb (0.3ms)
+  Rendering user_mailer/request_mail.text.erb
+  Rendered user_mailer/request_mail.text.erb (0.3ms)
+UserMailer#request_mail: processed outbound mail in 40.7ms
+Sent mail to rw520@cam.ac.uk (4156.5ms)
+Date: Thu, 04 Jan 2018 12:53:58 +0100
+From: request@hexagonfab.com
+To: rw520@cam.ac.uk
+Message-ID: <5a4e15d6dbfd7_49023fd53e525c5843141@Ruizhis-MacBook-Pro.local.mail>
+Subject: Ruizhi Wang
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a4e15d6db62c_49023fd53e525c58430d2";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a4e15d6db62c_49023fd53e525c58430d2
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a4e15d6db62c_49023fd53e525c58430d2
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    
+  </body>
+</html>
+
+----==_mimepart_5a4e15d6db62c_49023fd53e525c58430d2--
+
+  Rendering contacts/create.html.erb within layouts/application
+  Rendered contacts/create.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 8740ms (Views: 28.5ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 12:55:17 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (9.8ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 42ms (Views: 36.1ms)
+
+
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 12:55:24 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6TbNI0Fjj9WUtofbMc9BNonh12UazajpOrxmXJP9AuWfMiwd0sAmSLDlI49RCwAvyyJYBhEP7YaIHRBMicH5Sg==", "contact"=>{"name"=>"Ruizhi Wang", "email"=>"ruizhiwang90@gmail.com", "message"=>"test", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb (1.3ms)
+MailForm::Notifier#contact: processed outbound mail in 81.7ms
+Sent mail to your_email@example.org (4211.8ms)
+Date: Thu, 04 Jan 2018 12:55:24 +0100
+From: Ruizhi Wang <ruizhiwang90@gmail.com>
+To: your_email@example.org
+Message-ID: <5a4e162c56140_49023fd53e5259c4432cb@Ruizhis-MacBook-Pro.local.mail>
+Subject: My Contact Form
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">My Contact Form</h4>
+
+
+  <p><b>Name:</b>
+  Ruizhi Wang</p>
+
+  <p><b>Email:</b>
+  ruizhiwang90@gmail.com</p>
+
+  <p><b>Message:</b>
+  test</p>
+
+
+Completed 500 Internal Server Error in 4298ms
+
+
+  
+NameError (uninitialized constant ContactsController::UserMailer):
+  
+app/controllers/contacts_controller.rb:11:in `create'
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 12:56:56 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6TbNI0Fjj9WUtofbMc9BNonh12UazajpOrxmXJP9AuWfMiwd0sAmSLDlI49RCwAvyyJYBhEP7YaIHRBMicH5Sg==", "contact"=>{"name"=>"Ruizhi Wang", "email"=>"ruizhiwang90@gmail.com", "message"=>"test", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb (1.7ms)
+MailForm::Notifier#contact: processed outbound mail in 76.7ms
+Sent mail to your_email@example.org (3960.7ms)
+Date: Thu, 04 Jan 2018 12:56:56 +0100
+From: Ruizhi Wang <ruizhiwang90@gmail.com>
+To: your_email@example.org
+Message-ID: <5a4e1688253b2_49023fd53e525c58433fe@Ruizhis-MacBook-Pro.local.mail>
+Subject: My Contact Form
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">My Contact Form</h4>
+
+
+  <p><b>Name:</b>
+  Ruizhi Wang</p>
+
+  <p><b>Email:</b>
+  ruizhiwang90@gmail.com</p>
+
+  <p><b>Message:</b>
+  test</p>
+
+
+Completed 500 Internal Server Error in 4044ms
+
+
+  
+NameError (uninitialized constant ContactsController::UserMailer):
+  
+app/controllers/contacts_controller.rb:11:in `create'
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 13:00:00 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6TbNI0Fjj9WUtofbMc9BNonh12UazajpOrxmXJP9AuWfMiwd0sAmSLDlI49RCwAvyyJYBhEP7YaIHRBMicH5Sg==", "contact"=>{"name"=>"Ruizhi Wang", "email"=>"ruizhiwang90@gmail.com", "message"=>"test", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb (1.5ms)
+MailForm::Notifier#contact: processed outbound mail in 71.9ms
+Sent mail to your_email@example.org (4407.8ms)
+Date: Thu, 04 Jan 2018 13:00:00 +0100
+From: Ruizhi Wang <ruizhiwang90@gmail.com>
+To: your_email@example.org
+Message-ID: <5a4e17406bf2c_49023fd53e525adc434d3@Ruizhis-MacBook-Pro.local.mail>
+Subject: My Contact Form
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">My Contact Form</h4>
+
+
+  <p><b>Name:</b>
+  Ruizhi Wang</p>
+
+  <p><b>Email:</b>
+  ruizhiwang90@gmail.com</p>
+
+  <p><b>Message:</b>
+  test</p>
+
+
+Completed 500 Internal Server Error in 4485ms
+
+
+  
+NameError (uninitialized constant ContactsController::UserMailer):
+  
+app/controllers/contacts_controller.rb:11:in `create'
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 13:02:33 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6TbNI0Fjj9WUtofbMc9BNonh12UazajpOrxmXJP9AuWfMiwd0sAmSLDlI49RCwAvyyJYBhEP7YaIHRBMicH5Sg==", "contact"=>{"name"=>"Ruizhi Wang", "email"=>"ruizhiwang90@gmail.com", "message"=>"test", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb (3.3ms)
+MailForm::Notifier#contact: processed outbound mail in 455.9ms
+Sent mail to your_email@example.org (707.3ms)
+Date: Thu, 04 Jan 2018 13:02:35 +0100
+From: Ruizhi Wang <ruizhiwang90@gmail.com>
+To: your_email@example.org
+Message-ID: <5a4e17db88a8d_4b1b3fdcfc265f5c46871@Ruizhis-MacBook-Pro.local.mail>
+Subject: My Contact Form
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">My Contact Form</h4>
+
+
+  <p><b>Name:</b>
+  Ruizhi Wang</p>
+
+  <p><b>Email:</b>
+  ruizhiwang90@gmail.com</p>
+
+  <p><b>Message:</b>
+  test</p>
+
+
+Completed 500 Internal Server Error in 3410ms
+
+
+  
+Net::SMTPAuthenticationError (534-5.7.14 <https://accounts.google.com/signin/continue?sarp=1&scc=1&plt=AKgnsbsY
+):
+  
+app/controllers/contacts_controller.rb:10:in `create'
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 13:03:56 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6TbNI0Fjj9WUtofbMc9BNonh12UazajpOrxmXJP9AuWfMiwd0sAmSLDlI49RCwAvyyJYBhEP7YaIHRBMicH5Sg==", "contact"=>{"name"=>"Ruizhi Wang", "email"=>"ruizhiwang90@gmail.com", "message"=>"test", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb (1.2ms)
+MailForm::Notifier#contact: processed outbound mail in 75.4ms
+Sent mail to your_email@example.org (1414.1ms)
+Date: Thu, 04 Jan 2018 13:03:56 +0100
+From: Ruizhi Wang <ruizhiwang90@gmail.com>
+To: your_email@example.org
+Message-ID: <5a4e182cb7474_4b1b3fdcfc265d9046993@Ruizhis-MacBook-Pro.local.mail>
+Subject: My Contact Form
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">My Contact Form</h4>
+
+
+  <p><b>Name:</b>
+  Ruizhi Wang</p>
+
+  <p><b>Email:</b>
+  ruizhiwang90@gmail.com</p>
+
+  <p><b>Message:</b>
+  test</p>
+
+
+Completed 500 Internal Server Error in 1508ms
+
+
+  
+NoMethodError (undefined method `test_mail' for UserMailer:Class):
+  
+app/controllers/contacts_controller.rb:13:in `create'
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 13:04:28 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6TbNI0Fjj9WUtofbMc9BNonh12UazajpOrxmXJP9AuWfMiwd0sAmSLDlI49RCwAvyyJYBhEP7YaIHRBMicH5Sg==", "contact"=>{"name"=>"Ruizhi Wang", "email"=>"ruizhiwang90@gmail.com", "message"=>"test", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb (1.3ms)
+MailForm::Notifier#contact: processed outbound mail in 76.3ms
+Sent mail to your_email@example.org (3696.9ms)
+Date: Thu, 04 Jan 2018 13:04:28 +0100
+From: Ruizhi Wang <ruizhiwang90@gmail.com>
+To: your_email@example.org
+Message-ID: <5a4e184c254d9_4b1b3fdcfadb224047058@Ruizhis-MacBook-Pro.local.mail>
+Subject: My Contact Form
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">My Contact Form</h4>
+
+
+  <p><b>Name:</b>
+  Ruizhi Wang</p>
+
+  <p><b>Email:</b>
+  ruizhiwang90@gmail.com</p>
+
+  <p><b>Message:</b>
+  test</p>
+
+
+Completed 500 Internal Server Error in 3782ms
+
+
+  
+NoMethodError (undefined method `test_mail' for UserMailer:Class):
+  
+app/controllers/contacts_controller.rb:13:in `create'
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 13:04:54 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6TbNI0Fjj9WUtofbMc9BNonh12UazajpOrxmXJP9AuWfMiwd0sAmSLDlI49RCwAvyyJYBhEP7YaIHRBMicH5Sg==", "contact"=>{"name"=>"Ruizhi Wang", "email"=>"ruizhiwang90@gmail.com", "message"=>"test", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb (1.5ms)
+MailForm::Notifier#contact: processed outbound mail in 87.8ms
+Sent mail to your_email@example.org (1528.8ms)
+Date: Thu, 04 Jan 2018 13:04:55 +0100
+From: Ruizhi Wang <ruizhiwang90@gmail.com>
+To: your_email@example.org
+Message-ID: <5a4e18671c4c2_4b1b3fdcfc265ea8471b4@Ruizhis-MacBook-Pro.local.mail>
+Subject: My Contact Form
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">My Contact Form</h4>
+
+
+  <p><b>Name:</b>
+  Ruizhi Wang</p>
+
+  <p><b>Email:</b>
+  ruizhiwang90@gmail.com</p>
+
+  <p><b>Message:</b>
+  test</p>
+
+
+  Rendering user_mailer/test_mail.html.erb
+  Rendered user_mailer/test_mail.html.erb (0.4ms)
+UserMailer#test_mail: processed outbound mail in 35.1ms
+Sent mail to rw520@cam.ac.uk (1719.9ms)
+Date: Thu, 04 Jan 2018 13:04:56 +0100
+From: ruizhiwang90@gmail.com
+To: rw520@cam.ac.uk
+Message-ID: <5a4e1868a7381_4b1b3fdcfc265ea8472ed@Ruizhis-MacBook-Pro.local.mail>
+Subject: Test
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content=3D'text/html; charset=3DUTF-8' http-equiv=3D'Content-Ty=
+pe' />
+    <style type=3D"text/css">
+
+    body {
+      background-color: #f6f6f6;
+      font-family: "Open Sans", Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      margin: 0;
+    }
+
+    .container {
+      width: 90%;
+      margin-top: 3em;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+
+      .mail-header {
+        height: 0.3em;
+        width: 100%;
+        background-color: #fe4446;
+        text-align: center;
+        line-height: 7em;
+      }
+
+      .mail-body {
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: -2em;
+        padding-top: 3em;
+        padding-left: 5%;
+        padding-right: 5%;
+        background-color: white;
+        width: 90%;
+        color: #5b5b5b;
+        font-size: 1.1em;
+        line-height: 1.2em;
+      }
+
+      .mail-header h1 {
+        vertical-align: middle;
+      }
+
+      .mail-footer {
+        font-size: 1em;
+        text-align: center;
+        color: #666666;
+        width: 90%;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: -2em;
+        padding-top: 3em;
+        padding-left: 5%;
+        padding-right: 5%;
+      }
+
+      h1 {
+        color: #f4f1d6;
+        text-transform: uppercase;
+      }
+
+</style>
+  </head>
+  <body style=3D"background-color: #f6f6f6;">
+    <div class=3D"container">
+      <div class=3D"mail-header"></div>
+      <div class=3D"mail-body">
+        Hallo Christoph,<br><br>
+
+        pack Deinen Rucksack! Deine Reservierung f=C3=BCr Testh=C3=BCtte =
+wurde best=C3=A4tigt! <br><br>
+
+        Viel Spass in den Bergen! <br>
+
+        Deine Angaben:
+
+        <br>
+        Das H=C3=BCttenteam</p>
+        <br><br>
+      </div>
+      <div class=3D"mail-footer">
+      </div>
+
+    </div>
+
+
+  </body>
+</html>
+
+  Rendering contacts/create.html.erb within layouts/application
+  Rendered contacts/create.html.erb within layouts/application (0.7ms)
+  Rendered shared/_navbar.html.erb (2.2ms)
+  Rendered shared/_footer.html.erb (1.2ms)
+Completed 200 OK in 3785ms (Views: 395.8ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 13:42:09 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (110.1ms)
+  Rendered shared/_navbar.html.erb (1.1ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 141ms (Views: 134.5ms)
+
+
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 13:42:17 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cwbGzkICWK9vk1gbKn3RIfbaIUbKx2S8xjuxsD+mn3kFAifw0aHxMkvA/E9KuZA4tBmuJcEFIdN0msegJZpk1g==", "contact"=>{"name"=>"Ruizhi Wang", "email"=>"ruizhiwang90@gmail.com", "message"=>"Test", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb (0.9ms)
+MailForm::Notifier#contact: processed outbound mail in 69.3ms
+Sent mail to your_email@example.org (3763.8ms)
+Date: Thu, 04 Jan 2018 13:42:17 +0100
+From: Ruizhi Wang <ruizhiwang90@gmail.com>
+To: your_email@example.org
+Message-ID: <5a4e2129f34ca_4b1b3fdcfadb24fc47324@Ruizhis-MacBook-Pro.local.mail>
+Subject: My Contact Form
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">My Contact Form</h4>
+
+
+  <p><b>Name:</b>
+  Ruizhi Wang</p>
+
+  <p><b>Email:</b>
+  ruizhiwang90@gmail.com</p>
+
+  <p><b>Message:</b>
+  Test</p>
+
+
+UserMailer#request_mail: processed outbound mail in 0.3ms
+Completed 500 Internal Server Error in 3841ms
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/mailer/user_mailer.rb:9:in `request_mail'
+app/controllers/contacts_controller.rb:13:in `create'
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 13:42:48 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cwbGzkICWK9vk1gbKn3RIfbaIUbKx2S8xjuxsD+mn3kFAifw0aHxMkvA/E9KuZA4tBmuJcEFIdN0msegJZpk1g==", "contact"=>{"name"=>"Ruizhi Wang", "email"=>"ruizhiwang90@gmail.com", "message"=>"Test", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb (1.4ms)
+MailForm::Notifier#contact: processed outbound mail in 71.2ms
+Sent mail to your_email@example.org (2464.6ms)
+Date: Thu, 04 Jan 2018 13:42:48 +0100
+From: Ruizhi Wang <ruizhiwang90@gmail.com>
+To: your_email@example.org
+Message-ID: <5a4e2148c58cc_4b1b3fdcfc265f5c47424@Ruizhis-MacBook-Pro.local.mail>
+Subject: My Contact Form
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">My Contact Form</h4>
+
+
+  <p><b>Name:</b>
+  Ruizhi Wang</p>
+
+  <p><b>Email:</b>
+  ruizhiwang90@gmail.com</p>
+
+  <p><b>Message:</b>
+  Test</p>
+
+
+  Rendering user_mailer/request_mail.html.erb
+  Rendered user_mailer/request_mail.html.erb (0.4ms)
+  Rendering user_mailer/request_mail.text.erb
+  Rendered user_mailer/request_mail.text.erb (0.3ms)
+UserMailer#request_mail: processed outbound mail in 49.5ms
+Sent mail to rw520@cam.ac.uk (1592.5ms)
+Date: Thu, 04 Jan 2018 13:42:51 +0100
+From: ruizhiwang90@gmail.com
+To: rw520@cam.ac.uk
+Message-ID: <5a4e214b50d77_4b1b3fdcfc265f5c476c4@Ruizhis-MacBook-Pro.local.mail>
+Subject: Ruizhi Wang
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a4e214b501c8_4b1b3fdcfc265f5c475ae";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a4e214b501c8_4b1b3fdcfc265f5c475ae
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a4e214b501c8_4b1b3fdcfc265f5c475ae
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    
+  </body>
+</html>
+
+----==_mimepart_5a4e214b501c8_4b1b3fdcfc265f5c475ae--
+
+  Rendering contacts/create.html.erb within layouts/application
+  Rendered contacts/create.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (2.2ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 4228ms (Views: 35.8ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 13:43:19 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (7.5ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 37ms (Views: 32.7ms)
+
+
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 13:43:26 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O0oe5/iHWSj2pddOeCB7KjP62/PbSPkgtISr7O11NqtNTv/ZayTwtdL2cxoY5DozcTlUkNCKvE8GJd3890nNBA==", "contact"=>{"name"=>"Ruizhi Wang", "email"=>"ruizhiwang90@gmail.com", "message"=>"test", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb (1.5ms)
+MailForm::Notifier#contact: processed outbound mail in 73.4ms
+Sent mail to your_email@example.org (1859.1ms)
+Date: Thu, 04 Jan 2018 13:43:26 +0100
+From: Ruizhi Wang <ruizhiwang90@gmail.com>
+To: your_email@example.org
+Message-ID: <5a4e216ea53e6_4b1b3fdcfadb24fc47796@Ruizhis-MacBook-Pro.local.mail>
+Subject: My Contact Form
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">My Contact Form</h4>
+
+
+  <p><b>Name:</b>
+  Ruizhi Wang</p>
+
+  <p><b>Email:</b>
+  ruizhiwang90@gmail.com</p>
+
+  <p><b>Message:</b>
+  test</p>
+
+
+UserMailer#request_mail: processed outbound mail in 38.9ms
+Completed 500 Internal Server Error in 2095ms
+
+
+  
+NoMethodError (undefined method `subject' for #<Contact:0x007fb9fa4fe578>):
+  
+app/mailer/user_mailer.rb:11:in `request_mail'
+app/controllers/contacts_controller.rb:13:in `create'
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 13:44:38 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O0oe5/iHWSj2pddOeCB7KjP62/PbSPkgtISr7O11NqtNTv/ZayTwtdL2cxoY5DozcTlUkNCKvE8GJd3890nNBA==", "contact"=>{"name"=>"Ruizhi Wang", "email"=>"ruizhiwang90@gmail.com", "message"=>"test", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb (1.3ms)
+MailForm::Notifier#contact: processed outbound mail in 71.9ms
+Sent mail to your_email@example.org (1560.3ms)
+Date: Thu, 04 Jan 2018 13:44:38 +0100
+From: Ruizhi Wang <ruizhiwang90@gmail.com>
+To: your_email@example.org
+Message-ID: <5a4e21b623938_4b1b3fdcfc265f5c47830@Ruizhis-MacBook-Pro.local.mail>
+Subject: My Contact Form
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">My Contact Form</h4>
+
+
+  <p><b>Name:</b>
+  Ruizhi Wang</p>
+
+  <p><b>Email:</b>
+  ruizhiwang90@gmail.com</p>
+
+  <p><b>Message:</b>
+  test</p>
+
+
+Completed 500 Internal Server Error in 1639ms
+
+
+  
+SyntaxError (/Users/ruizhi/Documents/HexagonFab/website/hexagonfab_V0/app/mailer/user_mailer.rb:11: syntax error, unexpected tIVAR, expecting ')'
+ebsite request from " @contact.name)
+                              ^
+/Users/ruizhi/Documents/HexagonFab/website/hexagonfab_V0/app/mailer/user_mailer.rb:11: syntax error, unexpected ')', expecting keyword_end
+ request from " @contact.name)
+                              ^):
+  
+app/mailer/user_mailer.rb:11: syntax error, unexpected tIVAR, expecting ')'
+app/mailer/user_mailer.rb:11: syntax error, unexpected ')', expecting keyword_end
+app/controllers/contacts_controller.rb:13:in `create'
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 13:45:11 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O0oe5/iHWSj2pddOeCB7KjP62/PbSPkgtISr7O11NqtNTv/ZayTwtdL2cxoY5DozcTlUkNCKvE8GJd3890nNBA==", "contact"=>{"name"=>"Ruizhi Wang", "email"=>"ruizhiwang90@gmail.com", "message"=>"test", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb (1.3ms)
+MailForm::Notifier#contact: processed outbound mail in 72.7ms
+Sent mail to your_email@example.org (1519.6ms)
+Date: Thu, 04 Jan 2018 13:45:12 +0100
+From: Ruizhi Wang <ruizhiwang90@gmail.com>
+To: your_email@example.org
+Message-ID: <5a4e21d81183a_4b1b3fdcfc265d90479fd@Ruizhis-MacBook-Pro.local.mail>
+Subject: My Contact Form
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">My Contact Form</h4>
+
+
+  <p><b>Name:</b>
+  Ruizhi Wang</p>
+
+  <p><b>Email:</b>
+  ruizhiwang90@gmail.com</p>
+
+  <p><b>Message:</b>
+  test</p>
+
+
+  Rendering user_mailer/request_mail.html.erb
+  Rendered user_mailer/request_mail.html.erb (0.4ms)
+  Rendering user_mailer/request_mail.text.erb
+  Rendered user_mailer/request_mail.text.erb (0.3ms)
+UserMailer#request_mail: processed outbound mail in 43.5ms
+Sent mail to rw520@cam.ac.uk (1723.7ms)
+Date: Thu, 04 Jan 2018 13:45:13 +0100
+From: ruizhiwang90@gmail.com
+To: rw520@cam.ac.uk
+Message-ID: <5a4e21d99ca84_4b1b3fdcfc265d9048175@Ruizhis-MacBook-Pro.local.mail>
+Subject: Ruizhi Wang
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a4e21d99c2e9_4b1b3fdcfc265d9048052";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a4e21d99c2e9_4b1b3fdcfc265d9048052
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a4e21d99c2e9_4b1b3fdcfc265d9048052
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    
+  </body>
+</html>
+
+----==_mimepart_5a4e21d99c2e9_4b1b3fdcfc265d9048052--
+
+  Rendering contacts/create.html.erb within layouts/application
+  Rendered contacts/create.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 3400ms (Views: 27.9ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 13:46:04 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (6.4ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 38ms (Views: 35.2ms)
+
+
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 13:46:12 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uFJxTg2L6FzDTRWDCX0ovEl+oQ3bc3Eyz28hnEokXQ/OVpBwnihBwecesddpuWmlC70ubtCxNF19zleMUBimoA==", "contact"=>{"name"=>"Ruizhi Wang", "email"=>"ruizhiwang90@gmail.com", "message"=>"test", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb (0.9ms)
+MailForm::Notifier#contact: processed outbound mail in 72.4ms
+Sent mail to your_email@example.org (1997.5ms)
+Date: Thu, 04 Jan 2018 13:46:12 +0100
+From: Ruizhi Wang <ruizhiwang90@gmail.com>
+To: your_email@example.org
+Message-ID: <5a4e221499b65_4b1b3fdcfc265f5c482da@Ruizhis-MacBook-Pro.local.mail>
+Subject: My Contact Form
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">My Contact Form</h4>
+
+
+  <p><b>Name:</b>
+  Ruizhi Wang</p>
+
+  <p><b>Email:</b>
+  ruizhiwang90@gmail.com</p>
+
+  <p><b>Message:</b>
+  test</p>
+
+
+  Rendering user_mailer/request_mail.html.erb
+  Rendered user_mailer/request_mail.html.erb (0.3ms)
+  Rendering user_mailer/request_mail.text.erb
+  Rendered user_mailer/request_mail.text.erb (0.3ms)
+UserMailer#request_mail: processed outbound mail in 42.6ms
+Sent mail to rw520@cam.ac.uk (1361.2ms)
+Date: Thu, 04 Jan 2018 13:46:14 +0100
+From: ruizhiwang90@gmail.com
+To: rw520@cam.ac.uk
+Message-ID: <5a4e2216a3dd8_4b1b3fdcfc265f5c48468@Ruizhis-MacBook-Pro.local.mail>
+Subject: Ruizhi Wang
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a4e2216a3646_4b1b3fdcfc265f5c48313";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a4e2216a3646_4b1b3fdcfc265f5c48313
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+test
+
+----==_mimepart_5a4e2216a3646_4b1b3fdcfc265f5c48313
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    
+  </body>
+</html>
+
+----==_mimepart_5a4e2216a3646_4b1b3fdcfc265f5c48313--
+
+  Rendering contacts/create.html.erb within layouts/application
+  Rendered contacts/create.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 3510ms (Views: 30.2ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 13:46:39 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (7.2ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 40ms (Views: 35.9ms)
+
+
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 13:46:44 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BRKy7mZyBEPy6oLGyk3NHwMwtCNWXNeZhZe+wJmOmI1zFlPQ9dGt3ta5JpKqiYwGQfM7QF2ekvY3NsjQg7JjIg==", "contact"=>{"name"=>"Ruizhi Wang", "email"=>"ruizhiwang90@gmail.com", "message"=>"asdasd", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb (1.0ms)
+MailForm::Notifier#contact: processed outbound mail in 79.1ms
+Sent mail to your_email@example.org (1654.6ms)
+Date: Thu, 04 Jan 2018 13:46:44 +0100
+From: Ruizhi Wang <ruizhiwang90@gmail.com>
+To: your_email@example.org
+Message-ID: <5a4e2234e09f6_4b1b3fdcfadb24fc485d0@Ruizhis-MacBook-Pro.local.mail>
+Subject: My Contact Form
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">My Contact Form</h4>
+
+
+  <p><b>Name:</b>
+  Ruizhi Wang</p>
+
+  <p><b>Email:</b>
+  ruizhiwang90@gmail.com</p>
+
+  <p><b>Message:</b>
+  asdasd</p>
+
+
+  Rendering user_mailer/request_mail.html.erb
+  Rendered user_mailer/request_mail.html.erb (0.4ms)
+  Rendering user_mailer/request_mail.text.erb
+  Rendered user_mailer/request_mail.text.erb (0.3ms)
+UserMailer#request_mail: processed outbound mail in 44.1ms
+Sent mail to rw520@cam.ac.uk (1491.7ms)
+Date: Thu, 04 Jan 2018 13:46:46 +0100
+From: ruizhiwang90@gmail.com
+To: rw520@cam.ac.uk
+Message-ID: <5a4e223697685_4b1b3fdcfadb24fc48769@Ruizhis-MacBook-Pro.local.mail>
+Subject: Ruizhi Wang
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a4e223696e9a_4b1b3fdcfadb24fc4865c";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a4e223696e9a_4b1b3fdcfadb24fc4865c
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+asdasd
+
+----==_mimepart_5a4e223696e9a_4b1b3fdcfadb24fc4865c
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    LALALALALA
+  </body>
+</html>
+
+----==_mimepart_5a4e223696e9a_4b1b3fdcfadb24fc4865c--
+
+  Rendering contacts/create.html.erb within layouts/application
+  Rendered contacts/create.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 3304ms (Views: 26.7ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 13:47:14 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (7.3ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 43ms (Views: 37.3ms)
+
+
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 13:47:29 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UIKy0l4MF9M+0Qy7bOwYCJax/c9V9dVwClIf2KB40xomhlPsza++ThqCqO8MKFkR1HJyrF43kB+482nIukQotQ==", "contact"=>{"name"=>"Ruizhi Wang", "email"=>"ruizhiwang90@gmail.com", "message"=>"Test-message", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb (1.3ms)
+MailForm::Notifier#contact: processed outbound mail in 74.8ms
+Sent mail to your_email@example.org (1501.6ms)
+Date: Thu, 04 Jan 2018 13:47:29 +0100
+From: Ruizhi Wang <ruizhiwang90@gmail.com>
+To: your_email@example.org
+Message-ID: <5a4e2261825ac_4b1b3fdcfc265ea848885@Ruizhis-MacBook-Pro.local.mail>
+Subject: My Contact Form
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">My Contact Form</h4>
+
+
+  <p><b>Name:</b>
+  Ruizhi Wang</p>
+
+  <p><b>Email:</b>
+  ruizhiwang90@gmail.com</p>
+
+  <p><b>Message:</b>
+  Test-message</p>
+
+
+  Rendering user_mailer/request_mail.html.erb
+  Rendered user_mailer/request_mail.html.erb (0.4ms)
+  Rendering user_mailer/request_mail.text.erb
+  Rendered user_mailer/request_mail.text.erb (0.3ms)
+UserMailer#request_mail: processed outbound mail in 44.0ms
+Sent mail to rw520@cam.ac.uk (1475.0ms)
+Date: Thu, 04 Jan 2018 13:47:31 +0100
+From: ruizhiwang90@gmail.com
+To: rw520@cam.ac.uk
+Message-ID: <5a4e226313ba3_4b1b3fdcfc265ea849060@Ruizhis-MacBook-Pro.local.mail>
+Subject: Ruizhi Wang
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a4e2263133ef_4b1b3fdcfc265ea848911";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a4e2263133ef_4b1b3fdcfc265ea848911
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a4e2263133ef_4b1b3fdcfc265ea848911
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    Test-message
+  </body>
+</html>
+
+----==_mimepart_5a4e2263133ef_4b1b3fdcfc265ea848911--
+
+  Rendering contacts/create.html.erb within layouts/application
+  Rendered contacts/create.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 3130ms (Views: 26.8ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 13:48:05 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (7.8ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (1.3ms)
+Completed 200 OK in 36ms (Views: 31.7ms)
+
+
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 13:48:13 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pLmB33ScOmXXX4SpiwSMf+yC1rw4KVMhEeal+deSjz7SvWDh5z+T+PMMIP3rwM1mrkFZ3zPrFk6jR9Ppza50kQ==", "contact"=>{"name"=>"Ruizhi Wang", "email"=>"ruizhiwang90@gmail.com", "message"=>"halloa", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb (1.1ms)
+MailForm::Notifier#contact: processed outbound mail in 76.1ms
+Sent mail to your_email@example.org (1906.8ms)
+Date: Thu, 04 Jan 2018 13:48:13 +0100
+From: Ruizhi Wang <ruizhiwang90@gmail.com>
+To: your_email@example.org
+Message-ID: <5a4e228d36431_4b1b3fdcfadb224049119@Ruizhis-MacBook-Pro.local.mail>
+Subject: My Contact Form
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">My Contact Form</h4>
+
+
+  <p><b>Name:</b>
+  Ruizhi Wang</p>
+
+  <p><b>Email:</b>
+  ruizhiwang90@gmail.com</p>
+
+  <p><b>Message:</b>
+  halloa</p>
+
+
+  Rendering user_mailer/request_mail.html.erb
+  Rendered user_mailer/request_mail.html.erb (0.6ms)
+  Rendering user_mailer/request_mail.text.erb
+  Rendered user_mailer/request_mail.text.erb (0.2ms)
+UserMailer#request_mail: processed outbound mail in 38.5ms
+Sent mail to rw520@cam.ac.uk (1838.9ms)
+Date: Thu, 04 Jan 2018 13:48:15 +0100
+From: ruizhiwang90@gmail.com
+To: rw520@cam.ac.uk
+Message-ID: <5a4e228f2a25f_4b1b3fdcfadb2240493b6@Ruizhis-MacBook-Pro.local.mail>
+Subject: Ruizhi WangLalalalala
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a4e228f29b37_4b1b3fdcfadb2240492a7";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a4e228f29b37_4b1b3fdcfadb2240492a7
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a4e228f29b37_4b1b3fdcfadb2240492a7
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    halloa
+  </body>
+</html>
+
+----==_mimepart_5a4e228f29b37_4b1b3fdcfadb2240492a7--
+
+  Rendering contacts/create.html.erb within layouts/application
+  Rendered contacts/create.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 3897ms (Views: 27.5ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 13:48:56 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (6.3ms)
+  Rendered shared/_navbar.html.erb (1.1ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 41ms (Views: 34.4ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-01-04 13:49:03 +0100
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (16.8ms)
+  Rendered shared/_navbar.html.erb (2.0ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 53ms (Views: 48.6ms)
+
+
+Started POST "/contacts?locale=en" for 127.0.0.1 at 2018-01-04 13:49:12 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kzqvpk1yBYWGfS57FG+fOaBwqfRP6Xy4bVlg3AxklxnlPk6Y3tGsGKIuii90q94g4rMml0QrOdff+BbMFlhstg==", "contact"=>{"name"=>"Ruizhi Wang", "email"=>"ruizhiwang90@gmail.com", "message"=>"Test Text", "nickname"=>""}, "commit"=>"Send message", "locale"=>"en"}
+  Rendering /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /Users/ruizhi/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/mail_form-1.7.0/lib/mail_form/views/mail_form/contact.erb (1.4ms)
+MailForm::Notifier#contact: processed outbound mail in 77.0ms
+Sent mail to your_email@example.org (3156.5ms)
+Date: Thu, 04 Jan 2018 13:49:12 +0100
+From: Ruizhi Wang <ruizhiwang90@gmail.com>
+To: your_email@example.org
+Message-ID: <5a4e22c8e4e9d_4b1b3fdcfadb24fc494bd@Ruizhis-MacBook-Pro.local.mail>
+Subject: My Contact Form
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">My Contact Form</h4>
+
+
+  <p><b>Name:</b>
+  Ruizhi Wang</p>
+
+  <p><b>Email:</b>
+  ruizhiwang90@gmail.com</p>
+
+  <p><b>Message:</b>
+  Test Text</p>
+
+
+  Rendering user_mailer/request_mail.html.erb
+  Rendered user_mailer/request_mail.html.erb (0.5ms)
+  Rendering user_mailer/request_mail.text.erb
+  Rendered user_mailer/request_mail.text.erb (0.3ms)
+UserMailer#request_mail: processed outbound mail in 35.4ms
+Sent mail to rw520@cam.ac.uk (2859.0ms)
+Date: Thu, 04 Jan 2018 13:49:16 +0100
+From: ruizhiwang90@gmail.com
+To: rw520@cam.ac.uk
+Message-ID: <5a4e22cc211f9_4b1b3fdcfadb24fc4962e@Ruizhis-MacBook-Pro.local.mail>
+Subject: Message from contact form Ruizhi Wang
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a4e22cc208f6_4b1b3fdcfadb24fc49517";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a4e22cc208f6_4b1b3fdcfadb24fc49517
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a4e22cc208f6_4b1b3fdcfadb24fc49517
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    Test Text
+  </body>
+</html>
+
+----==_mimepart_5a4e22cc208f6_4b1b3fdcfadb24fc49517--
+
+  Rendering contacts/create.html.erb within layouts/application
+  Rendered contacts/create.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 6169ms (Views: 28.9ms)
+
+
