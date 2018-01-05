@@ -83,6 +83,20 @@ Rails.application.configure do
   # require 'syslog/logger'
   # config.logger = ActiveSupport::TaggedLogging.new(Syslog::Logger.new 'app-name')
 
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.raise_delivery_errors = true
+  config.action_mailer.default_url_options = {:host => "hexagonfab.com"}
+  # SMTP settings for privateemail
+  config.action_mailer.smtp_settings = {
+   :address              => 'mail.privateemail.com',
+   :domain               => 'hexagonfab.com',
+   :port                 => 587,
+   :authentication       => 'login',
+   :user_name            => 'info@hexagonfab.com',
+   :password             => '[vY[Eq]i$tzc.',
+   :enable_starttls_auto => true
+  }
+
   if ENV["RAILS_LOG_TO_STDOUT"].present?
     logger           = ActiveSupport::Logger.new(STDOUT)
     logger.formatter = config.log_formatter

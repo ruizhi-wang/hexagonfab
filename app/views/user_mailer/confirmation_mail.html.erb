@@ -68,16 +68,17 @@
     <div class="container">
       <div class="mail-header"></div>
       <div class="mail-body">
-        <h4>Request via contact-form on hexagonfab.com</h4>
-        <p>Email from: <%= @contact.name %></p>
-        <p>Email Address: <%=@contact.email%></p>
 
-        <p>Message:
-        <%= @contact.message %>
-        </p>
-        <br><br>
+        <p>Dear <%= @contact.name%>,</p>
+        <br>
+        <p>We have received you mail. A member of our team will get back to you shortly. Thank you for your interest in HexagonFab.</p>
+        <br>
+        <p>Best regards,</p>
+        <br>
+        <p>The team from HexagonFab</p>
+        <br>
       </div>
-      <div class="mail-footer">
+        <div class="mail-footer">
       </div>
 
     </div>

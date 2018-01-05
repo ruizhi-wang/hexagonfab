@@ -54,13 +54,28 @@ Rails.application.configure do
 
 config.action_mailer.delivery_method = :smtp
 config.action_mailer.raise_delivery_errors = true
-# SMTP settings for gmail
+
+config.action_mailer.default_url_options = {:host => "hexagonfab.com"}
+
+# # SMTP settings for gmail
+# config.action_mailer.smtp_settings = {
+#  :address              => "smtp.gmail.com",
+#  :port                 => 587,
+#  :user_name            => 'ruizhiwang90@gmail.com',
+#  :password             => '123Goatsie',
+#  :authentication       => "plain",
+# :enable_starttls_auto => true
+# }
+
+# SMTP settings for privateemail
 config.action_mailer.smtp_settings = {
- :address              => "smtp.gmail.com",
+ :address              => 'mail.privateemail.com',
+ :domain               => 'hexagonfab.com',
  :port                 => 587,
- :user_name            => 'ruizhiwang90@gmail.com',
- :password             => '123Goatsie',
- :authentication       => "plain",
-:enable_starttls_auto => true
+ :authentication       => 'login',
+ :user_name            => 'info@hexagonfab.com',
+ :password             => '[vY[Eq]i$tzc.',
+ :enable_starttls_auto => true
 }
+
 end

@@ -9,8 +9,11 @@ class ContactsController < ApplicationController
 
     if @contact.deliver
 
-      #send test email when deliver is clicked
+      #send request email when deliver is clicked
       UserMailer.request_mail(@contact).deliver
+
+      #send confirmation email when deliver is clicked
+      UserMailer.confirmation_mail(@contact).deliver
 
       flash.now[:error] = nil
       flash.now[:notice] = 'Thank you for your message!'
