@@ -15,9 +15,10 @@ class StaticPagesController < ApplicationController
     @request = params[:decision].to_i
 
     if @request == 1
-      flash[:alert] = "Email Sent"
-      @request=2
+      flash[:success] = "Email Sent"
     end
+
+
   end
 
 end

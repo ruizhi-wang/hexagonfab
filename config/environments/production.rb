@@ -91,9 +91,9 @@ Rails.application.configure do
    :address              => 'mail.privateemail.com',
    :domain               => 'hexagonfab.com',
    :port                 => 587,
-   :authentication       => 'login',
-   :user_name            => 'info@hexagonfab.com',
-   :password             => '[vY[Eq]i$tzc.',
+   :authentication       => 'plain',
+   :user_name            => 'contact@hexagonfab.com',
+   :password             => 'Wvq-k3H-RkU-5vp',
    :enable_starttls_auto => true
   }
 

@@ -8,11 +8,11 @@ class UserMailer < ActionMailer::Base
 
   def confirmation_mail(contact)
     @contact=contact
-    mail(to: @contact.email, subject: "Your request at HexagonFab.com")
+    mail(from: 'contact@hexagonfab.com', to: @contact.email, subject: "Your request at HexagonFab.com")
   end
 
-  def request_mail(contact)
-    @contact=contact
-    mail(to: "rw520@cam.ac.uk", subject: "Contact-form hexagonfab.com - User: " + @contact.name)
-  end
+  # def request_mail(contact)
+  #   @contact=contact
+  #   mail(from: 'contact@hexagonfab.com', to: "rw520@cam.ac.uk", subject: "Contact-form hexagonfab.com - User: " + @contact.name)
+  # end
 end
