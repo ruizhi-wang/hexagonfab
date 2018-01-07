@@ -2,61 +2,91 @@
 
 <style media="screen">
 /* Create two equal columns that floats next to each other */
-.col-lg-4 {
-  float:none;
-  display:inline-block;
-  vertical-align:middle;
-  text-align: center;
-  margin-right:-4px;
-  padding: 30px;
-}
-
-.col-lg-8 {
-  float:none;
-  display:inline-block;
-  vertical-align:middle;
-  margin-right:-4px;
-  padding: 30px;
-}
-
 .row{
-  margin-left: 0px;
+  display:table-row;
+}
+
+.column {
+    float: left;
+    padding: 20px;
+    /* margin: 10px; */
+}
+
+.left{
+  width: 50%;
+}
+
+.right{
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media (max-width: 800px) {
+@media (max-width: 600px) {
+  .column {
+      width: 100%;
+  }
+
   .text-item{
     width: 100%;
   }
 }
 </style>
 
-
-
-<div class="text-item">
   <h1> <%=t('product.product')%> </h1>
-</div>
 
-<div class='text-item'>
-  <div class='list-item'>
     <div class="row">
-      <div class="col-lg-4">
-          <%=image_tag("CuTile_R1_v2_250X_01_edit.jpg", class:"img-responsive")%>
+      <!-- 1st card  -->
+      <div class="column left">
+        <div class="card-item">
+        <table>
+          <tr>
+            <%=image_tag("CuTile_R1_v2_250X_01_edit.jpg", class: 'img-responsive')%>
+          </tr>
+          <tr>
+            <p>
+            <b><%=t('product.graphene-title')%></b>
+            </p>
+            <p style="text-align:justify">
+              <%=t('product.graphene-text')%>
+            </p>
+            <div class="center">
+              <%= link_to t('product.findmore'), product_path, class: "btn btn-primary" %>
+            </div>
+          </tr>
+        </table>
+        </div>
       </div>
-      <div class="col-lg-8">
-        <p>
-        <b><%=t('product.graphene-title')%></b>
-        </p>
-        <p style="text-align:justify">
-          <%=t('product.graphene-text')%>
-        </p>
-      <div class="center">
-        <%= link_to t('product.findmore'), product_path, class: "btn btn-primary" %>
-      </div></div>
+
+      <!-- 2nd card  -->
+      <div class="column left">
+        <div class="card-item">
+        <table>
+          <tr>
+            <%=image_tag("CuTile_R1_v2_250X_01_edit.jpg", class: 'img-responsive')%>
+          </tr>
+          <tr>
+            <p>
+            <b><%=t('product.graphene-title')%></b>
+            </p>
+            <p style="text-align:justify">
+              <%=t('product.graphene-text')%>
+            </p>
+            <div class="center">
+              <%= link_to t('product.findmore'), product_path, class: "btn btn-primary" %>
+            </div>
+          </tr>
+        </table>
+        </div>
       </div>
+
     </div>
-  </div>
-</div>
 
 <br><br>
 
