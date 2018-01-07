@@ -1,4 +1,4 @@
-<div class="row">
+<!-- <div class="row">
   <div class="col-md-10 col-md-offset-1">
     This is a test page <br>
     The locale is:
@@ -27,10 +27,10 @@
 <% end %>
 <%= @request%>
 
-<!-- <ul class="dropdown-menu">
+<ul class="dropdown-menu">
        <li><%= link_to "English", locale: 'en', class: "btn navbar-btn" %></li>
        <li><%= link_to "中文", locale: 'cn', class: "btn navbar-btn" %></li>
-</ul> -->
+</ul>
 
 <br>
 
@@ -38,4 +38,24 @@
 
 <%= link_to t('Contact'), new_contact_path%>
 
-<%= link_to "Home", root_path, class: "btn btn-lg btn-primary" %>
+<%= link_to "Home", root_path, class: "btn btn-lg btn-primary" %> -->
+<style media="screen">
+.col-lg-4, .col-lg-8 {
+  float:none;
+  display:inline-block;
+  vertical-align:middle;
+  margin-right:-4px;
+}
+</style>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8">
+      <h3>THIS IS MY TITLE</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sollicitudin tincidunt nisl, id tempus orci viverra gravida. Curabitur ante lacus, varius at turpis a, placerat gravida neque. Aliquam a quam eget nunc interdum commodo et id massa. Cras sollicitudin bibendum purus eu vestibulum. Nullam commodo vulputate tempus. Integer et egestas justo. Sed felis neque, suscipit eu velit sit amet, sodales interdum diam. Sed varius egestas tortor, vitae facilisis dui scelerisque at. Phasellus condimentum tortor magna, et facilisis justo euismod sed. Donec tellus turpis, sollicitudin ut leo et, congue pellentesque elit. Ut mauris urna, auctor vel lectus eu, ultrices consequat ipsum.</p>
+    </div>
+    <div class="col-lg-4">
+      <%=image_tag("CuTile_R1_v2_250X_01_edit.jpg", class: 'img-responsive')%>
+    </div>
+  </div>
+</div>
