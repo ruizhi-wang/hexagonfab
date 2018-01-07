@@ -112,15 +112,48 @@ footer small {
   float: left;
 }
 // ------------------------------------------------------------------------
-// List
+// Card
 .card-item {
   width: 100%;
   padding: 20px;
   margin: auto;
-  font-size: 16px;
+  font-size: 14px;
   color: #82888a;
   border: 1px solid #CCC;
   border-radius: 10px;
+}
+
+.card-table-cell {
+  padding-top:1px;
+  padding-bottom:1px;
+}
+
+.card-table-space {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.column {
+    float: left;
+    padding: 20px;
+    /* margin: 10px; */
+}
+
+.left{
+  width: 50%;
+}
+
+.right{
+  width: 50%;
+}
+
+// ------------------------------------------------------------------------
+// List
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .list-item {

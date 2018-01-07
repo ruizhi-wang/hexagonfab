@@ -1,3 +1,20 @@
+<style media="screen">
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+      width: 100%;
+  }
+
+  .container{
+    width: 100%;
+  }
+
+  .text-item{
+    width: 100%;
+  }
+}
+</style>
+
 <!-- the provide method gives the string "help" as a variable back to the application.html.erb file; there it is defined what to do with that id -->
 <% provide(:title, "News") %>
 
