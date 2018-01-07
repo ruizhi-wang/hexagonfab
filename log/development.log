@@ -38413,3 +38413,94 @@ Processing by StaticPagesController#test as HTML
 Completed 200 OK in 35ms (Views: 31.2ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-01-07 16:18:10 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (377.6ms)
+  Rendered shared/_navbar.html.erb (2.8ms)
+  Rendered shared/_footer.html.erb (13.7ms)
+Completed 200 OK in 2291ms (Views: 485.8ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-01-07 16:18:14 +0100
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (3.1ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (3.6ms)
+Completed 200 OK in 38ms (Views: 34.1ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2018-01-07 16:19:01 +0100
+Processing by StaticPagesController#test as HTML
+  Rendering static_pages/test.erb within layouts/application
+  Rendered static_pages/test.erb within layouts/application (5.4ms)
+  Rendered shared/_navbar.html.erb (1.1ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 35ms (Views: 30.9ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2018-01-07 16:19:01 +0100
+Processing by StaticPagesController#test as HTML
+  Rendering static_pages/test.erb within layouts/application
+  Rendered static_pages/test.erb within layouts/application (34.5ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (7.0ms)
+Completed 200 OK in 109ms (Views: 102.6ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2018-01-07 16:19:24 +0100
+Processing by StaticPagesController#test as HTML
+  Rendering static_pages/test.erb within layouts/application
+  Rendered static_pages/test.erb within layouts/application (4.5ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (1.3ms)
+Completed 200 OK in 38ms (Views: 33.5ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2018-01-07 16:19:39 +0100
+Processing by StaticPagesController#test as HTML
+  Rendering static_pages/test.erb within layouts/application
+  Rendered static_pages/test.erb within layouts/application (4.5ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (1.2ms)
+Completed 200 OK in 38ms (Views: 33.9ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2018-01-07 16:20:12 +0100
+Processing by StaticPagesController#test as HTML
+  Rendering static_pages/test.erb within layouts/application
+  Rendered static_pages/test.erb within layouts/application (5.0ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (1.7ms)
+Completed 200 OK in 59ms (Views: 54.1ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2018-01-07 16:20:51 +0100
+Processing by StaticPagesController#test as HTML
+  Rendering static_pages/test.erb within layouts/application
+  Rendered static_pages/test.erb within layouts/application (5.2ms)
+  Rendered shared/_navbar.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (1.2ms)
+Completed 200 OK in 37ms (Views: 33.3ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2018-01-07 16:22:02 +0100
+Processing by StaticPagesController#test as HTML
+  Rendering static_pages/test.erb within layouts/application
+  Rendered static_pages/test.erb within layouts/application (4.3ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (1.8ms)
+Completed 200 OK in 41ms (Views: 35.3ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2018-01-07 16:22:10 +0100
+Processing by StaticPagesController#test as HTML
+  Rendering static_pages/test.erb within layouts/application
+  Rendered static_pages/test.erb within layouts/application (5.4ms)
+  Rendered shared/_navbar.html.erb (2.4ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 39ms (Views: 34.7ms)
+
+
