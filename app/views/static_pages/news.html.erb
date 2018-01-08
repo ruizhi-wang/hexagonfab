@@ -52,6 +52,11 @@
     margin: auto;
   }
 }
+
+@media screen and (min-width: 300px) {
+  #news-image{width: 250px}
+}
+
 </style>
 
 <div class="text-item">
@@ -63,7 +68,7 @@
     <div class="row">
       <!-- Image Column of the Card  -->
       <div class="column left">
-          <%=image_tag("CuTile_R1_v2_250X_01_edit.jpg", class: 'img-responsive')%>
+          <%=image_tag("CuTile_R1_v2_250X_01_edit.jpg", id: 'news-image', class: 'img-responsive center-block')%>
       </div>
 
       <div class="column right">
@@ -85,7 +90,7 @@
     <div class="row">
       <!-- Image Column of the Card  -->
       <div class="column left">
-          <%=image_tag("CuTile_R1_v2_250X_01_edit.jpg", class: 'img-responsive')%>
+          <%=image_tag("CuTile_R1_v2_250X_01_edit.jpg", id: 'news-image', class: 'img-responsive center-block')%>
       </div>
 
       <div class="column right">
