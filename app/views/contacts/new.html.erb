@@ -26,15 +26,22 @@
     padding-bottom: 1.25px;
   }
 
+  @media (max-width: 800px) {
+    .contact-form{
+      width: 80%;
+    }
+
+    .text-item{
+      width: 90%;
+      margin: auto;
+    }
+  }
 </style>
 
 <!--Actual page layout: Table  -->
-
-<div class:="container">
-
-  <div class="text-item justify">
-    <h3><p>Contact Details</p></h3>
-  </div>
+<div class="text-item">
+  <h1>Contact Details</h1>
+</div>
 
   <div class="text-item">
     <div class="list-item-top">
@@ -77,11 +84,10 @@
 <!--Actual page layout: Contact form  -->
 
 
-<div class="text-item justify">
-  <h3><p>Contact Form</p><small>
-    <!-- <%=t('contact.contact-text')%> -->
-  </small></h3>
+<div class="text-item">
+  <h1>Contact Form</h1>
 </div>
+
 <div class="contact-form">
   <%= simple_form_for @contact, :html => {:class => 'form-horizontal' } do |f| %>
     <%= f.input :name, :required => true %>
@@ -101,5 +107,3 @@
 
 <br>
 <br>
-
-</div>

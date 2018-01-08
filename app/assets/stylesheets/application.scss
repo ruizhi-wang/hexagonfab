@@ -6,13 +6,6 @@
 // The order of the class definition defines the base and the other class. For
 // example .btn2.btn uses btn2 as the base class and takes all the non-available
 // definitions from btn
-body {
-  color: #565a5c;
-  background-color: black;
-  /* background-color: #ffffff; old Color */
-  /* background-color: #F8F8F8; Old Color*/
-}
-
 .landing-top {
   background-image: image_url('CuTile_R1_v2_25kX_04_edit.jpg');
   background-position: top;
@@ -47,7 +40,7 @@ body {
 }
 
 .container {
-	width: 95%;
+	width: 100%;
 }
 
 .va-container {
