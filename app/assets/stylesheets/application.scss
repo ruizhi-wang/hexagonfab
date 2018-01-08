@@ -18,12 +18,12 @@ body {
   background-position: top;
   width:100%;
   background-repeat: no-repeat;
-  height: 30em;
+  height: 40em;
 }
 
 .landing-text {
   border-top: 1px solid #eaeaea;
-  width:80%;
+  width:70%;
   margin: auto;
 }
 
@@ -47,7 +47,7 @@ body {
 }
 
 .container {
-	width: 90%;
+	width: 95%;
 }
 
 .va-container {
@@ -59,6 +59,7 @@ body {
 .va-middle {
   vertical-align: middle;
   display: table-cell;
+  padding: 20px;
 }
 
 .va-middle-text {
@@ -169,7 +170,7 @@ footer small {
   margin-top: 40px;
   margin-bottom: 40px;
   padding: 10px 0;
-  font-size: 16px;
+  font-size: 14px;
   color: #82888a;
   border-top: 1px solid #CCC;
   border-bottom: 1px solid #CCC;

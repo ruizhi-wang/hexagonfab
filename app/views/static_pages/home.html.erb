@@ -1,4 +1,23 @@
 <% provide(:title, "Home") %>
+
+<style media="screen">
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 800px) {
+  .container{
+    width: 100%;
+  }
+
+  .landing-text{
+    width: 100%;
+  }
+
+  .landing-top{
+    width: 100%;
+  }
+}
+</style>
+
 <!--  Top intro page -->
 <div class="landing-top">
   <div class="va-container">
@@ -6,7 +25,6 @@
       	<div class="row">
       		<h1 style="color:white"><strong>HexagonFab</strong> <%=t('home.title')%> </h1>
       	</div>
-
         <div class="row">
   		    <h3 style="color:white"> <%=t('home.subtitle')%></h3>
   		  </div>
@@ -18,15 +36,13 @@
 <div style="height:1em"></div>
 
 <!--  Middle Text Section -->
-<div class="landing-text">
-  <div class="text-justify">
+<div class="landing-text text-justify">
     <br>
       <h3><small>
       <%=t('home.landing-text')%>
       <b><%=t('home.soon')%></b>
     </small></h3>
     <br>
-  </div>
 </div>
 
 <!-- Spacer -->
