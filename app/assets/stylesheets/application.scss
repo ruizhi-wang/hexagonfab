@@ -1,11 +1,14 @@
 // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
 @import "bootstrap-sprockets";
 @import "bootstrap";
-
-
 // The order of the class definition defines the base and the other class. For
 // example .btn2.btn uses btn2 as the base class and takes all the non-available
 // definitions from btn
+
+body {
+  padding-top: 0px;
+}
+
 .landing-top {
   background-image: image_url('CuTile_R1_v2_25kX_04_edit.jpg');
   background-position: top;
@@ -16,7 +19,7 @@
 
 .landing-text {
   border-top: 1px solid #eaeaea;
-  width:70%;
+  width: 60%;
   margin: auto;
 }
 
@@ -26,7 +29,7 @@
 }
 
 .text-item {
-  width:80%;
+  width: 70%;
   margin: auto;
   margin-bottom: 20px;
 }
@@ -63,8 +66,15 @@
 }
 
 .container-non-padding {
+  background-color: white;
   padding-left: 0px;
   padding-right:0px;
+}
+
+.container-content {
+  background-color: white;
+  width: 80%;
+  margin: auto;
 }
 
 .contact-form{
@@ -74,10 +84,20 @@
 
 // ------------------------------------------------------------------------
 // Navbar design
-.navbar-fixed-top {
-  top: 0;
-  border-width: 0 0 0px;
-  margin: 0px;
+
+// .nav.navbar.navbar-inverse.navbar-fixed-top{
+//   top: 100;
+//   border-width: 0 0 0px;
+//   margin: 0px;
+//   padding-bottom: 0px;
+// }
+//
+// .nav{
+//   margin-bottom: 0;
+// }
+
+.navbar {
+    margin-bottom: 0 !important;
 }
 
 .nav.navbar-nav.navbar-right li.navbar-btn a {

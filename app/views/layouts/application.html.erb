@@ -22,6 +22,7 @@
 
 <body>
 
+  <!-- <div class="container-non-padding"> -->
 	<%= render 'shared/navbar' %>
   <div style="height:3.5em"></div>
 
@@ -31,8 +32,10 @@
 
   <% flash_messages %>
 
-  <div class="container-non-padding">
-        <%= yield %>
+
+    <div class="container-non-padding">
+          <%= yield %>
+    </div>
   </div>
 
 
