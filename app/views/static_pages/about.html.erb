@@ -5,7 +5,7 @@
     width: 90%;
     margin: auto;
   }
-  
+
 }
   @media screen and (min-width: 300px) {
     #about-image{width: 500px}
@@ -22,9 +22,15 @@
 <div class="text-item">
     <div class="list-item-top">
         <p style="text-align:justify">
+          <h3>
+            Our Technology
+          </h3>
+            <%=t('about.doing') %>
           <br>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
           <br>
+          <div class="center">
+            <%= link_to t('about.product'), product_path, class: "btn btn-secondary" %>
+          </div>
         </p>
     </div>
 </div>
@@ -36,8 +42,11 @@
 <div class="text-item">
     <div class="list-item-top">
         <p style="text-align:justify">
+          <h3>
+            Our Motivation
+          </h3>
+          <%=t('about.why') %>
           <br>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
           <br>
         </p>
     </div>

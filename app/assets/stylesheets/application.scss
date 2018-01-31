@@ -206,6 +206,21 @@ footer small {
   outline:none;
 }
 
+.btn-secondary.btn {
+  border: 1px solid black;
+  border-radius: 15px;
+  font-weight: bold;
+  background-color: #788cb6;
+  color: #fff;
+  padding: 5px 25px 5px 25px;
+}
+
+.btn-secondary.btn:hover, .btn-secondary.btn:focus {
+  border-color: black;
+  background-color: lightblue;
+  outline:none;
+}
+
 .btn-default.btn {
   border: 1px solid black;
   border-radius: 10px;

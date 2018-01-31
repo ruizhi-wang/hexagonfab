@@ -30,10 +30,5 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 en:
   home:
-    title: "Nanomaterials"
-    subtitle: "Nanomaterials for Sensor Platforms"
-    landing-text: "Stone, bronze, steel and silicon age:
-    the corner stone to advances in society were enabled by
-    methods of material processing. Nanomaterials are the next big frontier.
-    At HexagonFab, our mission is to bring two dimensional materials from laboratory to industry"
-    soon: "Details coming soon"
+    subtitle: "Designing 2D Materials"
+    landing-mission: " We believe that the time has come for the introduction of 2D Materials to the world. At Hexagonfab, we bring these materials from the laboratory to the market. It is our mission to design novel nanomaterials for innovative future applications in biotechnology, sensing and quantum computing. Our technology is scalable and sustainable."
