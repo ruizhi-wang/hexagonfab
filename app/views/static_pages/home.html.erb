@@ -16,7 +16,22 @@
     width: 100%;
   }
 }
+
+@media screen and (min-width: 300px) {
+  #triangle-image{width: 200px}
+  #square-image{width: 200px}
+  #hexagon-image{width: 200px}
+}
+
 </style>
+<!--
+
+}
+  @media screen and (min-width: 300px) {
+    #about-image{width: 500px}
+  }
+
+</style> -->
 
 <!--  Top intro page -->
 <div class="landing-top">
@@ -35,20 +50,46 @@
 <!-- Spacer -->
 <div style="height:1em"></div>
 
-<!--  Middle Text Section -->
-<div class="landing-text text-justify">
+<div class="container">
+  <!--  Middle Text Section -->
+  <div class="landing-text text-justify">
     <br>
-    <h3>Our Mission</h3>
+    <h2 class="text-center">Our Mission</h2>
+    <%=image_tag("triangle.png", id:'triangle-image', class: 'img-responsive center-block')%>
       <h3><small>
       <%=t('home.landing-mission')%>
-    </small></h3>
+      </small></h3>
     <br>
-    <div class="center">
-      <%= link_to t('product.findmore'), about_path, class: "btn btn-primary" %>
-    </div>
-    <br>
-</div>
+  </div>
 
+  <!--  Middle Text Section -->
+  <div class="landing-text text-why">
+      <br>
+      <h2 class="text-center">What Drives Us</h2>
+      <%=image_tag("hexagon.png", id:'hexagon-image', class: 'img-responsive center-block')%>
+        <h3><small>
+        <%=t('home.landing-why')%>
+      </small></h3>
+      <br>
+  </div>
+
+
+  <!--  Middle Text Section -->
+  <div class="landing-text text-justify">
+      <br>
+      <h2 class="text-center">What We Do</h2>
+      <%=image_tag("square.png", id:'square-image', class: 'img-responsive center-block')%>
+        <h3><small>
+        <%=t('home.landing-doing')%>
+      </small></h3>
+      <br>
+      <div class="center">
+        <%= link_to t('product.product'), product_path, class: "btn btn-primary" %>
+      </div>
+      <br>
+  </div>
+
+</div>
 <!-- Spacer -->
 <div style="height:1em"></div>
 

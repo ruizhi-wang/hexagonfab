@@ -30,6 +30,7 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 en:
   navbar:
+    home: Home
     product: Product
     news: News
     about: About Us

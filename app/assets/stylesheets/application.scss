@@ -10,16 +10,17 @@ body {
 }
 
 .landing-top {
+  height: 100vh;
   background-image: image_url('CuTile_R1_v2_25kX_04_edit.jpg');
   background-position: top;
-  width:100%;
-  background-repeat: no-repeat;
-  height: 40em;
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
 }
 
 .landing-text {
   border-top: 1px solid #eaeaea;
-  width: 60%;
+  width: 80%;
   margin: auto;
 }
 

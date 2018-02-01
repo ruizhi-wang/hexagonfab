@@ -30,7 +30,7 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 en:
   product:
-    product: Product
+    product: Products
     findmore: Find out more
     graphene-title: Graphene
     graphene-text: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
