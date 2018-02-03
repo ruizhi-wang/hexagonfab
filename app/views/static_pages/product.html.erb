@@ -8,18 +8,37 @@
       width: 100%;
   }
   .text-item{
-    width: 90%;
+    width: 95%;
     margin: auto;
   }
 
 }
+
+@media screen and (min-height: 100px) {
+  #graphene-image{height: 150px}
+  #hBN-image{height: 165px}
+  #hetero-image{height: 170px}
+  #consultancy-image{height: 170px}
+}
+
 
 </style>
 
 <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
 <div class="container">
   <div class="text-item">
-    <h1>Product</h1>
+    <h1>Products</h1>
+
+      <div class="list-item-top">
+        <h3><small>
+          <%=t('product.intro')%>
+        </small></h3>
+        <br>
+          <div class="center">
+            <%= link_to t('home.contact'), new_contact_path, class: "btn btn-primary" %>
+          </div>
+        <br>
+      </div>
 
     <div class="row">
 
@@ -30,7 +49,7 @@
           <tr> <td class="card-table-cell"> <h3> <%=t('product.graphene-title')%></b> </h3> </td></tr>
           <tr><td class="card-table-space"></td></tr>
           <tr>
-            <td class="card-table-cell"><%=image_tag("CuTile_R1_v2_250X_01_edit.jpg", class: 'img-responsive')%></td>
+            <td class="card-table-cell"><%=image_tag("graphene.svg", id:"graphene-image", class: 'img-responsive center-block')%></td>
           </tr>
           <tr><td class="card-table-space"></td></tr>
           <tr>
@@ -54,9 +73,9 @@
           <tr> <td class="card-table-cell"> <h3> <%=t('product.hBN-title')%></b> </h3> </td></tr>
           <tr><td class="card-table-space"></td></tr>
           <tr>
-            <td class="card-table-cell"><%=image_tag("CuTile_R1_v2_250X_01_edit.jpg", class: 'img-responsive center-block')%></td>
+            <td class="card-table-cell"><%=image_tag("hBN.svg", id:"hBN-image", class: 'img-responsive center-block')%></td>
           </tr>
-          <tr><td class="card-table-space"></td></tr>
+          <tr><td class="card-table-small-space"></td></tr>
           <tr>
             <td class="card-table-cell">
               <p style="text-align:justify">
@@ -78,7 +97,7 @@
           <tr> <td class="card-table-cell"> <h3> <%=t('product.hetero-title')%></b> </h3> </td></tr>
           <tr><td class="card-table-space"></td></tr>
           <tr>
-            <td class="card-table-cell"><%=image_tag("CuTile_R1_v2_250X_01_edit.jpg", class: 'img-responsive center-block')%></td>
+            <td class="card-table-cell"><%=image_tag("hetero.svg",id:'hetero-image', class: 'img-responsive center-block')%></td>
           </tr>
           <tr><td class="card-table-space"></td></tr>
           <tr>
@@ -102,7 +121,7 @@
           <tr> <td class="card-table-cell"> <h3> <%=t('product.consultancy-title')%></b> </h3> </td></tr>
           <tr><td class="card-table-space"></td></tr>
           <tr>
-            <td class="card-table-cell"><%=image_tag("CuTile_R1_v2_250X_01_edit.jpg", class: 'img-responsive center-block')%></td>
+            <td class="card-table-cell"><%=image_tag("logo_alone.svg", id:'consultancy-image', class: 'img-responsive center-block')%></td>
           </tr>
           <tr><td class="card-table-space"></td></tr>
           <tr>

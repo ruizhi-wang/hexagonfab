@@ -43803,3 +43803,527 @@ Processing by StaticPagesController#product as HTML
 Completed 200 OK in 46ms (Views: 39.1ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-02-03 16:10:06 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (5135.7ms)
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (1.6ms)
+Completed 200 OK in 7101ms (Views: 5245.6ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-02-03 16:10:15 +0000
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 26ms
+
+
+  
+SyntaxError (/Users/ruizhi/Documents/HexagonFab/website/hexagonfab_V0/app/views/static_pages/product.html.erb:65: syntax error, unexpected keyword_class, expecting ')'
+hBN.svg", id:"hBN-image" class: 'img-responsive center-block
+                              ^
+/Users/ruizhi/Documents/HexagonFab/website/hexagonfab_V0/app/views/static_pages/product.html.erb:65: syntax error, unexpected ')', expecting keyword_end
+img-responsive center-block'));@output_buffer.safe_append='<
+                              ^
+/Users/ruizhi/Documents/HexagonFab/website/hexagonfab_V0/app/views/static_pages/product.html.erb:89: syntax error, unexpected keyword_class, expecting ')'
+o.svg",id:'hetero-image' class: 'img-responsive center-block
+                              ^
+/Users/ruizhi/Documents/HexagonFab/website/hexagonfab_V0/app/views/static_pages/product.html.erb:89: syntax error, unexpected ')', expecting keyword_end
+img-responsive center-block'));@output_buffer.safe_append='<
+                              ^):
+  
+app/views/static_pages/product.html.erb:65: syntax error, unexpected keyword_class, expecting ')'
+app/views/static_pages/product.html.erb:65: syntax error, unexpected ')', expecting keyword_end
+app/views/static_pages/product.html.erb:89: syntax error, unexpected keyword_class, expecting ')'
+app/views/static_pages/product.html.erb:89: syntax error, unexpected ')', expecting keyword_end
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-02-03 16:10:33 +0000
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (9.0ms)
+  Rendered shared/_navbar.html.erb (2.1ms)
+  Rendered shared/_footer.html.erb (2.2ms)
+Completed 200 OK in 59ms (Views: 50.2ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-02-03 16:11:20 +0000
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (6.0ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 46ms (Views: 38.9ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-02-03 16:17:47 +0000
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (32.1ms)
+  Rendered shared/_navbar.html.erb (2.0ms)
+  Rendered shared/_footer.html.erb (1.1ms)
+Completed 200 OK in 2522ms (Views: 2518.4ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-02-03 16:18:27 +0000
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (16.9ms)
+  Rendered shared/_navbar.html.erb (4.0ms)
+  Rendered shared/_footer.html.erb (1.5ms)
+Completed 200 OK in 80ms (Views: 75.1ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-02-03 16:19:18 +0000
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (9.5ms)
+  Rendered shared/_navbar.html.erb (2.2ms)
+  Rendered shared/_footer.html.erb (1.3ms)
+Completed 200 OK in 70ms (Views: 65.4ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-02-03 16:19:35 +0000
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (6.2ms)
+  Rendered shared/_navbar.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 83ms (Views: 77.2ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-02-03 16:19:51 +0000
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (4.0ms)
+  Rendered shared/_navbar.html.erb (1.1ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 40ms (Views: 32.8ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-02-03 16:20:28 +0000
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (5.8ms)
+  Rendered shared/_navbar.html.erb (1.1ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 54ms (Views: 46.0ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-02-03 16:20:41 +0000
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (4.6ms)
+  Rendered shared/_navbar.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 38ms (Views: 34.0ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-02-03 16:20:50 +0000
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (4.0ms)
+  Rendered shared/_navbar.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 38ms (Views: 34.3ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-02-03 16:20:58 +0000
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (5.4ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 48ms (Views: 40.1ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-02-03 16:21:35 +0000
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (18.8ms)
+Completed 500 Internal Server Error in 44ms
+
+
+  
+ActionView::Template::Error (The asset "logo-alone.svg" is not present in the asset pipeline.):
+    110:           <tr> <td class="card-table-cell"> <h3> <%=t('product.consultancy-title')%></b> </h3> </td></tr>
+    111:           <tr><td class="card-table-space"></td></tr>
+    112:           <tr>
+    113:             <td class="card-table-cell"><%=image_tag("logo-alone.svg", id:'consultancy-image', class: 'img-responsive center-block')%></td>
+    114:           </tr>
+    115:           <tr><td class="card-table-space"></td></tr>
+    116:           <tr>
+  
+app/views/static_pages/product.html.erb:113:in `_app_views_static_pages_product_html_erb___2998835186863197278_70334823751860'
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-02-03 16:22:02 +0000
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (5.3ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (1.3ms)
+Completed 200 OK in 51ms (Views: 43.6ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-02-03 16:22:18 +0000
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (5.2ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 42ms (Views: 37.2ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-02-03 16:22:34 +0000
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (7.1ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 49ms (Views: 40.0ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-02-03 16:22:39 +0000
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (4.9ms)
+  Rendered shared/_navbar.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 39ms (Views: 34.7ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-02-03 16:27:33 +0000
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (6.4ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 45ms (Views: 39.8ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-02-03 16:28:52 +0000
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (7.0ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 41ms (Views: 37.2ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-02-03 16:28:59 +0000
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (5.4ms)
+  Rendered shared/_navbar.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 43ms (Views: 35.1ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-02-03 16:29:35 +0000
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (11.0ms)
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (1.1ms)
+Completed 200 OK in 2643ms (Views: 2634.9ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-02-03 16:30:06 +0000
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (7.3ms)
+  Rendered shared/_navbar.html.erb (2.2ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 2420ms (Views: 2414.5ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-02-03 16:30:30 +0000
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (6.5ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 2570ms (Views: 2566.5ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-02-03 16:30:40 +0000
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (7.8ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 2519ms (Views: 2515.6ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-02-03 16:46:38 +0000
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (32.4ms)
+  Rendered shared/_navbar.html.erb (2.0ms)
+  Rendered shared/_footer.html.erb (1.3ms)
+Completed 200 OK in 3529ms (Views: 3522.5ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-02-03 16:47:00 +0000
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (5.5ms)
+  Rendered shared/_navbar.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 49ms (Views: 42.6ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-02-03 16:47:07 +0000
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (5.2ms)
+  Rendered shared/_navbar.html.erb (1.9ms)
+  Rendered shared/_footer.html.erb (1.1ms)
+Completed 200 OK in 53ms (Views: 45.7ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-02-03 16:47:13 +0000
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (5.6ms)
+  Rendered shared/_navbar.html.erb (8.9ms)
+  Rendered shared/_footer.html.erb (2.2ms)
+Completed 200 OK in 52ms (Views: 48.1ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-02-03 16:51:27 +0000
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (6.8ms)
+  Rendered shared/_navbar.html.erb (1.9ms)
+  Rendered shared/_footer.html.erb (1.1ms)
+Completed 200 OK in 1271ms (Views: 38.7ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-02-03 16:51:37 +0000
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (5.2ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (1.2ms)
+Completed 200 OK in 324ms (Views: 31.1ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-02-03 16:58:20 +0000
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (5.5ms)
+  Rendered shared/_navbar.html.erb (1.1ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 428ms (Views: 31.3ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-02-03 16:59:17 +0000
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (6.7ms)
+  Rendered shared/_navbar.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 43ms (Views: 38.8ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-02-03 16:59:19 +0000
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (5.3ms)
+  Rendered shared/_navbar.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 43ms (Views: 38.0ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-02-03 17:00:17 +0000
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (5.2ms)
+  Rendered shared/_navbar.html.erb (1.1ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 415ms (Views: 31.7ms)
+
+
+Started GET "/?locale=en" for 127.0.0.1 at 2018-02-03 17:00:22 +0000
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (16.3ms)
+  Rendered shared/_navbar.html.erb (6.8ms)
+  Rendered shared/_footer.html.erb (1.7ms)
+Completed 200 OK in 191ms (Views: 183.9ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-02-03 17:00:27 +0000
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (7.2ms)
+  Rendered shared/_navbar.html.erb (1.9ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 42ms (Views: 39.2ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-02-03 17:03:16 +0000
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (6.8ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 43ms (Views: 39.3ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-02-03 17:04:22 +0000
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (7.2ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 41ms (Views: 36.6ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-02-03 17:04:46 +0000
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (5.8ms)
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (1.1ms)
+Completed 200 OK in 45ms (Views: 38.5ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-02-03 17:05:10 +0000
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (6.0ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 40ms (Views: 34.9ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-02-03 17:05:22 +0000
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (8.0ms)
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (1.4ms)
+Completed 200 OK in 54ms (Views: 48.5ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-02-03 17:06:00 +0000
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (5.7ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 39ms (Views: 34.7ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-02-03 17:06:02 +0000
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (5.4ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 39ms (Views: 35.5ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-02-03 17:06:28 +0000
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (6.1ms)
+  Rendered shared/_navbar.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 40ms (Views: 35.8ms)
+
+
+Started GET "/?locale=en" for 127.0.0.1 at 2018-02-03 17:06:34 +0000
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (7.5ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 40ms (Views: 35.9ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-02-03 17:07:22 +0000
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (6.0ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (1.2ms)
+Completed 200 OK in 406ms (Views: 38.9ms)
+
+
+Started GET "/contacts/new?locale=en" for 127.0.0.1 at 2018-02-03 17:07:29 +0000
+Processing by ContactsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (110.5ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 167ms (Views: 135.4ms)
+
+
+Started GET "/?locale=en" for 127.0.0.1 at 2018-02-03 17:07:31 +0000
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (8.0ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 43ms (Views: 39.0ms)
+
+
+Started GET "/product?locale=en" for 127.0.0.1 at 2018-02-03 17:07:45 +0000
+Processing by StaticPagesController#product as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/product.html.erb within layouts/application
+  Rendered static_pages/product.html.erb within layouts/application (18.3ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 58ms (Views: 54.9ms)
+
+
