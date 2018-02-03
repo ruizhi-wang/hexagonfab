@@ -39,54 +39,57 @@
 </style>
 
 <!--Actual page layout: Table  -->
-<div class="text-item">
-  <h1>Contact Details</h1>
-</div>
+<div class="container">
 
   <div class="text-item">
-    <div class="list-item-top">
-      <table id="general" style="width:80%">
-            <tr>
-              <th>General inquiries</th>
-              <td id="cell" colspan="2">info@hexagonfab.com</td>
-            </tr>
+    <h1>Contact Details</h1>
+  </div>
 
-            <tr>
-              <th>Sales</th>
-              <td id="cell" colspan="2">sales@hexagonfab.com</td>
-            </tr>
-      </table>
+    <div class="text-item">
+      <div class="list-item-top">
+        <table id="general" style="width:80%">
+              <tr>
+                <th>General</th>
+                <td id="cell">info@hexagonfab.com</td>
+              </tr>
+
+              <tr>
+                <th>Sales</th>
+                <td id="cell">sales@hexagonfab.com</td>
+              </tr>
+        </table>
+      </div>
     </div>
+
+    <div class="text-item justify">
+      <%=t('contact.contactform-text')%>
+    </div>
+    <br>
+
+  <!--Actual page layout: Contact form  -->
+
+
+  <div class="text-item">
+    <h1>Contact Form</h1>
   </div>
 
-  <div class="text-item justify">
-    <%=t('contact.contactform-text')%>
+  <div class="contact-form">
+    <%= simple_form_for @contact, :html => {:class => 'form-horizontal' } do |f| %>
+      <%= f.input :name, :required => true %>
+      <%= f.input :email, :required => true %>
+      <%= f.input :message, :as => :text, :required => false, :input_html => {:rows => 10} %>
+
+      <div class="hidden">
+        <%=f.input :nickname, :hint => 'Leave this field blank!'%>
+      </div>
+
+      <div class="form-actions">
+        <%= f.button :submit, 'Send message', :class=> "btn" %>
+      </div>
+    <%end %>
+
   </div>
+
   <br>
-
-<!--Actual page layout: Contact form  -->
-
-
-<div class="text-item">
-  <h1>Contact Form</h1>
+  <br>
 </div>
-
-<div class="contact-form">
-  <%= simple_form_for @contact, :html => {:class => 'form-horizontal' } do |f| %>
-    <%= f.input :name, :required => true %>
-    <%= f.input :email, :required => true %>
-    <%= f.input :message, :as => :text, :required => false, :input_html => {:rows => 10} %>
-
-    <div class="hidden">
-      <%=f.input :nickname, :hint => 'Leave this field blank!'%>
-    </div>
-
-    <div class="form-actions">
-      <%= f.button :submit, 'Send message', :class=> "btn" %>
-    </div>
-  <%end %>
-
-</div>
-
-<br>
-<br>

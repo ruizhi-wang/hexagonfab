@@ -31,8 +31,11 @@
 en:
   home:
     subtitle: "Designing 2D Materials"
-    landing-mission: " We believe that the time has come for the introduction of 2D Materials to the world. At Hexagonfab, we bring these materials from the laboratory to the market. It is our mission to design novel nanomaterials for innovative future applications in biotechnology, sensing and quantum computing. Our technology is scalable and sustainable."
+    landing-mission: "It is our mission to design novel nanomaterials for innovative future applications in biotechnology, sensing and quantum computing. Our technology is scalable and sustainable. At Hexagonfab, we bring these materials from the laboratory to the market."
     landing-doing:
-      "HexagonFab develops materials for your application. We are the worlds first company to offer 2D materials on an industrial scale. Our current material portfolio includes individual 2D materials like graphene and hexagonal boron nitride (h-BN). In addition, we offer vertical stacks of 2D materials, commonly known as van der Waals (vdW) heterostructures. Our advanced process technology allows the assembly of 2D materals with atomic precision layer by layer. We can engineer material properties at unprecedented level for your specific requirements. Please see our product page for availability."
+      "HexagonFab develops materials for your application. We offer individual 2D materials like graphene and hexagonal boron nitride (h-BN). But going a step further, we are the world's first company to offer vertical stacks of 2D materials, commonly known as van der Waals (vdW) heterostructures, on an industrial scale. Our advanced process technology allows the assembly of 2D materals with atomic precision layer by layer. We can engineer material properties at unprecedented level for your specific requirements. Please see our product page for availability."
     landing-why:
       "By scaling to the nanoscale, we not only reduce material input, but also enable novel technologies. New material properties open the door to new application that have so far been unmet with conventional material approaches. Our material will enable affordable, ultrasensitive point of care bio-sensors, advanced photo-detectors and controlled single photon emitters for quantum computing."
+    landing-contact:
+      "Please contact us if you are interested in our products or have general questions. We will answer your request immediately. For details, please visit our contacts page for details"
+    contact: "Contact Us"
